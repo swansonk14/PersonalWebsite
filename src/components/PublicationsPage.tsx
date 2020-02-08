@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.scss";
 
-class ExperiencePage extends Component {
+class PublicationsPage extends Component {
 
   public render() {
     return (
@@ -31,4 +31,4 @@ class ExperiencePage extends Component {
   }
 }
 
-export default ExperiencePage;
+export default PublicationsPage;

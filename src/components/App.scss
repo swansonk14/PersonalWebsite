@@ -79,6 +79,12 @@
   font-size: 32px;
 }
 
+.selfImage {
+  width: 25%;
+  float: left;
+  margin-right: 14px;
+}
+
 .placeholderImg {
   width: 150px;
   height: 150px;
@@ -112,9 +118,10 @@
 }
 
 footer p {
-  margin-top: 24px;
+  margin-top: 16px;
   margin-bottom: 0px;
   text-align: center;
+  font-size: 14px;
 }
 
 footer span {

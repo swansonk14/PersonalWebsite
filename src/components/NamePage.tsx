@@ -6,8 +6,8 @@ class NamePage extends Component {
   public render() {
     return (
       <div className="Page">
-        <h1 className="nameTitle">John Doe-Smith</h1>
-        <img className="placeholderPortrait"></img>
+        <h1 className="nameTitle">Kyle Swanson</h1>
+        <img className="selfImage" src="images/kyle_swanson.png"></img>
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sint dignissimos reprehenderit ratione delectus ad ea nisi quidem enim tempora, temporibus consequuntur aspernatur voluptatibus molestiae minus cum praesentium, deleniti voluptatem.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam nihil non inventore eos expedita eius vero illum velit eveniet, ipsum itaque accusamus laborum perferendis fuga porro voluptatibus fugiat commodi.
         

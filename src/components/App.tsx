@@ -3,7 +3,7 @@ import Menu from "antd/es/menu";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
-import ExperiencePage from "./ExperiencePage";
+import PublicationsPage from "./PublicationsPage";
 import NamePage from "./NamePage";
 import ProjectsPage from "./ProjectsPage";
 
@@ -30,8 +30,8 @@ class App extends Component {
               <Menu.Item key="name">
                 <Link to="/">Name</Link>
               </Menu.Item>
-              <Menu.Item key="experience">
-                <Link to="/experience">Experience</Link>
+              <Menu.Item key="publications">
+                <Link to="/publications">Publications</Link>
               </Menu.Item>
               <Menu.Item key="projects">
                 <Link to="/projects">Projects</Link>
@@ -40,13 +40,15 @@ class App extends Component {
           </Header>
           <Content style={{minHeight: "calc(100vh - 134px)" }}>
             <Route exact path="/" component={NamePage} />
-            <Route path="/experience" component={ExperiencePage} />
+            <Route path="/publications" component={PublicationsPage} />
             <Route path="/projects" component={ProjectsPage} />
           </Content>
           <Footer style={{ textAlign: "center" }}>
-            <span><a href="email@mail.com"><Icon type="mail" /> email@mail.com</a></span>
-            <span><a href="linkedin.com/name"><Icon type="linkedin" /> linkedin.com/name</a></span>
-            <p>© 2019 <a>Jesse Michel</a> and <a>Zack Holbrook</a></p>
+            <span><a href="mailto:swansonk.14@gmail.com"><Icon type="mail" /> Email</a></span>
+            <span><a href="https://github.com/swansonk14"><Icon type="github" /> GitHub</a></span>
+            <span><a href="https://linkedin.com/in/kyle-swanson-564ab787"><Icon type="linkedin" /> LinkedIn</a></span>
+            {/* TODO: Google Scholar and Orcid */}
+            <p>© 2019 Kyle Swanson. <a href="https://github.com/swansonk14/PersonalWebsite">Source Code</a></p>
           </Footer>
         </Layout>
       </Router>
