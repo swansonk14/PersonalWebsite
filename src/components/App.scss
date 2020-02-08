@@ -52,7 +52,7 @@
   margin: 2em auto;
   margin-top: calc(35px + 2em);
   margin-bottom: calc(20px + 2em);
-  max-width: calc(800px - 4em);
+  max-width: calc(1000px - 4em);
   font-size: 18px;
   @media (max-width: 500px) {
     margin-left: 10px;
@@ -65,35 +65,30 @@
   font-size: 42px;
 }
 
-.placeholderPortrait {
-  width: 190px;
-  height: 230px;
-  background-color: #444;
-  float: right;
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-
 .sectionTitle {
   text-align: left;
   font-size: 32px;
 }
 
 .selfImage {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 14px;
 }
 
-.placeholderImg {
-  width: 150px;
-  height: 150px;
-  background-color: #444;
-  float: left;
-  margin-right: 10px;
+.selfAuthor {
+  font-weight: bold;
 }
 
-.projectTitle {
+.journalName {
+  font-style: italic;
+}
+
+.suppInfo p {
+  margin: 0px;
+}
+
+.publicationTitle {
   text-align: left;
   margin-top: 28px;
   font-size: 24px;

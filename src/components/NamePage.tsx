@@ -19,7 +19,6 @@ class NamePage extends Component {
         </p>
 
         <h2 className="sectionTitle"> Hobbies</h2>
-        <img className="placeholderImg"></img>
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sint dignissimos reprehenderit ratione delectus ad ea nisi quidem enim tempora, temporibus consequuntur aspernatur voluptatibus molestiae minus cum praesentium, deleniti voluptatem.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam nihil non inventore eos expedita eius vero illum velit eveniet, ipsum itaque accusamus laborum perferendis fuga porro voluptatibus fugiat commodi.
 
