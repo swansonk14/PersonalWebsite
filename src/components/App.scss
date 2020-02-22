@@ -107,13 +107,10 @@
   font-size: 24px;
 }
 
-.projectPlaceholderImg {
-  width: 100px;
-  height: 100px;
-  background-color: #444;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
+.projectImage {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .ant-layout-footer {
