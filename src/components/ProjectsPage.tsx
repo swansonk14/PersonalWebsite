@@ -7,6 +7,13 @@ class ProjectPage extends Component {
   public render() {
     return (
       <div className="Page">
+        <h2 className="projectTitle"><a href="https://github.com/swansonk14/IntroML"> IntroML</a></h2>
+        <img className="projectImage" src="images/nn.png"></img>
+        <br></br>
+        <p className="projectText"> IntroML is an introductory machine learning course that I developed and taught at Suleyman Demirel University in Almaty, Kazakhstan in January 2018 through MIT's <a href="http://misti.mit.edu/global-teaching-labs">Global Teaching Labs</a>. The material is based on the MIT class 6.036: Introduction to Machine Learning, which I took in spring 2016 with Professors Regina Barzilay, Tommi Jaakkola, and Suvrit Sra. The IntroML course consists of 11 lectures and programming labs, covering topics such as support vector machines, random forests, and neural networks. All the lecture notes, programming labs, and solutions are provided on the <a href="https://github.com/swansonk14/IntroML">IntroML GitHub page</a>.</p>
+
+        <Divider />
+
         <h2 className="projectTitle"><a href="https://github.com/swansonk14/typed-argument-parser"> Typed Argument Parser (Tap)</a></h2>
         <img className="projectImage" src="images/tap.png"></img>
         <br></br>
