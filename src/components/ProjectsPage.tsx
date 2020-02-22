@@ -6,6 +6,8 @@ class ProjectPage extends Component {
   public render() {
     return (
       <div className="Page">
+        <h1>Projects</h1>
+
         <h2 className="projectTitle"> Project 1</h2>
         <img className="projectPlaceholderImg"></img>
         <p className="projectText"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sint dignissimos reprehenderit ratione delectus ad ea nisi quidem enim tempora, temporibus consequuntur aspernatur voluptatibus molestiae minus cum praesentium, deleniti voluptatem.

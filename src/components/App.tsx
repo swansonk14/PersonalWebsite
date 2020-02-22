@@ -28,7 +28,7 @@ class App extends Component {
                   {[window.location.pathname === "/" ? "name" : window.location.pathname.split("/").join("")]}
                 mode="horizontal" className="Menu" style={{ lineHeight: "40px" }}>
               <Menu.Item key="name">
-                <Link to="/">Name</Link>
+                <Link to="/">About Me</Link>
               </Menu.Item>
               <Menu.Item key="publications">
                 <Link to="/publications">Publications</Link>
