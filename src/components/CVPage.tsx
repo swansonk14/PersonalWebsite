@@ -15,17 +15,19 @@ class CVPage extends Component {
   }
 
   public render() {
-    const { pageNumber, numPages } = this.state;
+    // const { pageNumber, numPages } = this.state;
 
     return (
-      <div>
-        <Document
-          file="pdfs/cv.pdf"
-          onLoadSuccess={this.onDocumentLoadSuccess}
-        >
-          <Page pageNumber={1} />
-        </Document>
-      <p>Page {pageNumber} of {numPages}</p>
+      <div className="Page">
+        <div className="cvPdf">
+          <Document
+            file="pdfs/cv.pdf"
+            onLoadSuccess={this.onDocumentLoadSuccess}
+          >
+            <Page pageNumber={1} />
+          </Document>
+        {/* <p>Page {pageNumber} of {numPages}</p> */}
+        </div>
       </div>
     );
   }
