@@ -34,8 +34,8 @@ class App extends Component {
               <Menu.Item key="publications">
                 <Link to="/publications">Publications</Link>
               </Menu.Item>
-              <Menu.Item key="cv">
-                <Link to="/cv">CV</Link>
+              <Menu.Item key="resume">
+                <Link to="/resume">Resume</Link>
               </Menu.Item>
               <Menu.Item key="projects">
                 <Link to="/projects">Other Projects</Link>
@@ -45,7 +45,7 @@ class App extends Component {
           <Content style={{minHeight: "calc(100vh - 134px)" }}>
             <Route exact path="/" component={NamePage} />
             <Route path="/publications" component={PublicationsPage} />
-            <Route path="/cv" component={CVPage} />
+            <Route path="/resume" component={CVPage} />
             <Route path="/projects" component={ProjectsPage} />
           </Content>
           <Footer style={{ textAlign: "center" }}>
