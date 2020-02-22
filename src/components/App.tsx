@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import PublicationsPage from "./PublicationsPage";
 import NamePage from "./NamePage";
 import ProjectsPage from "./ProjectsPage";
+import CVPage from "./CVPage";
 
 import "./App.scss";
 
@@ -33,14 +34,18 @@ class App extends Component {
               <Menu.Item key="publications">
                 <Link to="/publications">Publications</Link>
               </Menu.Item>
+              <Menu.Item key="cv">
+                <Link to="/cv">CV</Link>
+              </Menu.Item>
               <Menu.Item key="projects">
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects">Other Projects</Link>
               </Menu.Item>
             </Menu>
           </Header>
           <Content style={{minHeight: "calc(100vh - 134px)" }}>
             <Route exact path="/" component={NamePage} />
             <Route path="/publications" component={PublicationsPage} />
+            <Route path="/cv" component={CVPage} />
             <Route path="/projects" component={ProjectsPage} />
           </Content>
           <Footer style={{ textAlign: "center" }}>
