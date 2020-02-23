@@ -42,7 +42,7 @@ class App extends Component {
               </Menu.Item>
             </Menu>
           </Header>
-          <Content style={{minHeight: "calc(100vh - 134px)" }}>
+          <Content style={{minHeight: "calc(100vh - 110px)" }}>
             <Route exact path="/" component={NamePage} />
             <Route path="/publications" component={PublicationsPage} />
             <Route path="/resume" component={CVPage} />
