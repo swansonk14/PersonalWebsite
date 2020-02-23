@@ -27,7 +27,7 @@ class PublicationsPage extends Component {
 
         <h2 className="publicationTitle"><a href="https://pubs.rsc.org/en/content/articlelanding/2020/sm/c9sm01903k#!divAbstract"> Deep learning for automated classification and characterization of amorphous materials</a></h2>
         <p className="authorsText"> Kirk Swanson, Shubhendu Trivedi, Joshua Lequieu, <span className="selfAuthor">Kyle Swanson</span>, and Risi Kondor.</p>
-        <p className="journalText"> <span className="journalName">Soft Matter</span>, 2029.</p>
+        <p className="journalText"> <span className="journalName">Soft Matter</span>, 2020.</p>
 
         <Divider />
 
