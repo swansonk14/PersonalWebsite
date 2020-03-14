@@ -20,6 +20,7 @@ class PublicationsPage extends Component {
           <h4>News</h4>
           <p><a href="https://www.nature.com/articles/d41586-020-00018-3">Powerful antibiotics discovered using AI</a>, Nature News.</p>
           <p><a href="https://www.theguardian.com/society/2020/feb/20/antibiotic-that-kills-drug-resistant-bacteria-discovered-through-ai">Powerful antibiotic discovered using machine learning for first time</a>, The Guardian.</p>
+          <p><a href="https://www.bbc.co.uk/news/health-51586010">Scientists discover powerful antibiotic using AI</a>, BBC.</p>
           <p><a href="http://news.mit.edu/2020/artificial-intelligence-identifies-new-antibiotic-0220">Artificial intelligence yields new antibiotic</a>, MIT News.</p>
         </div>
 
