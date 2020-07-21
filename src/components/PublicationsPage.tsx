@@ -9,6 +9,22 @@ class PublicationsPage extends Component {
       <div className="Page">
         <h1>Publications</h1>
 
+        <h2 className="publicationTitle"><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6209-Paper.pdf"> Improving Molecular Design by Stochastic Iterative Target Augmentation</a></h2>
+        <p className="authorsText"> Kevin Yang, Wengong Jin, <span className="selfAuthor">Kyle Swanson</span>, Regina Barzilay, and Tommi Jaakkola.</p>
+        <p className="journalText"> <span className="journalName">Proceedings of the 37th International Conference on Machine Learning</span>, 2020.</p>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://www.aclweb.org/anthology/2020.acl-main.496/"> Rationalizing Text Matching: Learning Sparse Alignments via Optimal Transport</a></h2>
+        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Lili Yu<sup>*</sup>, and Tao Lei.</p>
+        <p className="journalText"> <span className="journalName">Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</span>, 2020.</p>
+        <div className="suppInfo">
+          <h4>Supporting Information</h4>
+          <p>Code: <a href="https://github.com/asappresearch/rationale-alignment">github.com/asappresearch/rationale-alignment</a></p>
+        </div>
+
+        <Divider />
+
         <h2 className="publicationTitle"><a href="https://www.cell.com/cell/fulltext/S0092-8674(20)30102-1"> A Deep Learning Approach to Antibiotic Discovery</a></h2>
         <p className="authorsText"> Jonathan M. Stokes, Kevin Yang<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Wengong Jin, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, Shawn French, Lindsey A. Carfrae, Zohar Bloom-Ackerman, Victoria M. Tran, Anush Chiappino-Pepe, Ahmed H. Badran, Ian W. Andrews, Emma J. Chory, George M. Church, Eric D. Brown, Tommi S. Jaakkola, Regina Barzilay, and James J. Collins.</p>
         <p className="journalText"> <span className="journalName">Cell</span>, 2020.</p>
