@@ -7,19 +7,19 @@ class ProjectPage extends Component {
   public render() {
     return (
       <div className="Page">
-        <h2 className="projectTitle"><a href="https://github.com/swansonk14/IntroML"> IntroML</a></h2>
-        <img className="projectImage" src="images/nn.png"></img>
-        <br></br>
-        <p className="projectText"> IntroML is an introductory machine learning course that I developed and taught at Suleyman Demirel University in Almaty, Kazakhstan in January 2018 through MIT's <a href="http://misti.mit.edu/global-teaching-labs">Global Teaching Labs</a>. The material is based on the MIT class 6.036: Introduction to Machine Learning, which I took in spring 2016 with Professors Regina Barzilay, Tommi Jaakkola, and Suvrit Sra. The IntroML course consists of 11 lectures and programming labs, covering topics such as support vector machines, random forests, and neural networks. All the lecture notes, programming labs, and solutions are provided on the <a href="https://github.com/swansonk14/IntroML">IntroML GitHub page</a>.</p>
-
-        <Divider />
-
         <h2 className="projectTitle"><a href="https://github.com/swansonk14/typed-argument-parser"> Typed Argument Parser (Tap)</a></h2>
         <img className="projectImage" src="images/tap.png"></img>
         <br></br>
         <p className="projectText"> Tap is a modernization of Python's built-in <a href="https://docs.python.org/3/library/argparse.html">argparse</a> library for parsing command line arguments. By defining arguments in a typed Python class, Tap enables arguments with static type checking, code completion, and source code navigation. Tap can be installed with:</p>
         <pre>pip install typed-argument-parser</pre>
         <p>The <a href="https://github.com/swansonk14/typed-argument-parser">code</a> is open-source and was developed by Jesse Michel and myself.</p>
+
+        <Divider />
+
+        <h2 className="projectTitle"><a href="https://github.com/swansonk14/IntroML"> IntroML</a></h2>
+        <img className="projectImage" src="images/nn.png"></img>
+        <br></br>
+        <p className="projectText"> IntroML is an introductory machine learning course that I developed and taught at Suleyman Demirel University in Almaty, Kazakhstan in January 2018 through MIT's <a href="http://misti.mit.edu/global-teaching-labs">Global Teaching Labs</a>. The material is based on the MIT class 6.036: Introduction to Machine Learning, which I took in spring 2016 with Professors Regina Barzilay, Tommi Jaakkola, and Suvrit Sra. The IntroML course consists of 11 lectures and programming labs, covering topics such as support vector machines, random forests, and neural networks. All the lecture notes, programming labs, and solutions are provided on the <a href="https://github.com/swansonk14/IntroML">IntroML GitHub page</a>.</p>
 
         <Divider />
 
