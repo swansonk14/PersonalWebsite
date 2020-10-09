@@ -9,6 +9,12 @@ class PublicationsPage extends Component {
       <div className="Page">
         <h1>Publications</h1>
 
+        <h2 className="publicationTitle"><a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00502"> Uncertainty Quantification Using Neural Networks for Molecular Property Prediction</a></h2>
+        <p className="authorsText"> Lior Hirschfeld, <span className="selfAuthor">Kyle Swanson</span>, Kevin Yang, Regina Barzilay, and Connor Coley.</p>
+        <p className="journalText"> <span className="journalName">Journal of Chemical Information and Modeling</span>, 2020.</p>
+
+        <Divider />
+
         <h2 className="publicationTitle"><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6209-Paper.pdf"> Improving Molecular Design by Stochastic Iterative Target Augmentation</a></h2>
         <p className="authorsText"> Kevin Yang, Wengong Jin, <span className="selfAuthor">Kyle Swanson</span>, Regina Barzilay, and Tommi Jaakkola.</p>
         <p className="journalText"> <span className="journalName">Proceedings of the 37th International Conference on Machine Learning</span>, 2020.</p>
