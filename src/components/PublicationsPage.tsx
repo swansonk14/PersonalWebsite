@@ -9,6 +9,74 @@ class PublicationsPage extends Component {
       <div className="Page">
         <h1>Publications</h1>
 
+        <h2 className="publicationTitle"><a href="https://www.sciencedirect.com/science/article/pii/S0092867423000946"> From patterns to patients: Advances in clinical machine learning for cancer diagnosis, prognosis, and treatment</a></h2>
+        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Eric Wu<sup>*</sup>, Angela Zhang<sup>*</sup>, Ash A. Alizadeh, James Zou.</p>
+        <p className="journalText"> <span className="journalName">Cell</span>, 2023.</p>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://www.biorxiv.org/content/10.1101/2023.02.03.526939v1"> Towards Universal Cell Embeddings: Integrating Single-cell RNA-seq Datasets across Species with SATURN</a></h2>
+        <p className="authorsText"> Yanay Rosen<sup>*</sup>, Maria Brbić<sup>*</sup>, Yusuf Roohani<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Ziang Li, Jure Leskovec.</p>
+        <p className="journalText"> <span className="journalName">bioRxiv</span>, 2023.</p>
+        <div className="suppInfo">
+          <h4>Supporting Information</h4>
+          <p>Code: <a href="https://github.com/snap-stanford/saturn">https://github.com/snap-stanford/saturn</a></p>
+        </div>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://proceedings.mlr.press/v200/swanson22a"> Predicting Immune Escape with Pretrained Protein Language Model Embeddings</a></h2>
+        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Howard Chang<sup>*</sup>, James Zou<sup>*</sup>.</p>
+        <p className="journalText"> <span className="journalName">Proceedings of Machine Learning Research</span>, 2022.</p>
+        <div className="suppInfo">
+          <h4>Supporting Information</h4>
+          <p>Code: <a href="https://github.com/swansonk14/escape_embeddings">https://github.com/swansonk14/escape_embeddings</a></p>
+        </div>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://www.nature.com/articles/s41551-022-00951-w"> Graph deep learning for the characterization of tumour microenvironments from spatial protein profiles in tissue specimens</a></h2>
+        <p className="authorsText"> Zhenqin Wu<sup>*</sup>, Alexandro E Trevino<sup>*</sup>, Eric Wu, <span className="selfAuthor">Kyle Swanson</span>, Honesty J Kim, H Blaize D’Angio, Ryan Preska, Gregory W Charville, Piero D Dalerba, Ann Marie Egloff, Ravindra Uppaluri, Umamaheswar Duvvuri, Aaron T Mayer, James Zou.</p>
+        <p className="journalText"> <span className="journalName">Nature Biomedical Engineering</span>, 2022.</p>
+        <div className="suppInfo">
+          <h4>Supporting Information</h4>
+          <p>Code: <a href="https://gitlab.com/enable-medicine-public/space-gm">https://gitlab.com/enable-medicine-public/space-gm</a></p>
+        </div>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://www.biorxiv.org/content/10.1101/2022.06.03.494624v1"> <i>7-UP</i>: generating <i>in silico</i> CODEX from a small set of immunofluorescence markers</a></h2>
+        <p className="authorsText"> Eric Wu<sup>*</sup>, Alexandro E. Trevino<sup>*</sup>, Zhenqin Wu, <span className="selfAuthor">Kyle Swanson</span>, Honesty J. Kim, H. Blaize D’Angio, Ryan Preska, Gregory W. Charville, Piero D. Dalerba, Umamaheswar Duvvuri, Jelena Levi, A. Dimitrios Colevas, Nikita Bedi, Serena Chang, John B. Sunwoo, Aaron T. Mayer, James Zou.</p>
+        <p className="journalText"> <span className="journalName">bioRxiv</span>, 2022.</p>
+        <div className="suppInfo">
+          <h4>Supporting Information</h4>
+          <p>Code: <a href="https://gitlab.com/enable-medicine-public/7-up">https://gitlab.com/enable-medicine-public/7-up</a></p>
+        </div>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://arxiv.org/abs/2204.08105"> Monte Carlo Tree Search for Interpreting Stress in Natural Language</a></h2>
+        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Joy Hsu, Mirac Suzgun.</p>
+        <p className="journalText"> <span className="journalName">Second Workshop on LT-EDI at ACL</span>, 2022.</p>
+        <div className="suppInfo">
+          <h4>Supporting Information</h4>
+          <p>Code: <a href="https://github.com/swansonk14/MCTS_Interpretability">https://github.com/swansonk14/MCTS_Interpretability</a></p>
+        </div>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://patents.google.com/patent/US11238278B1/en"> File matching with rationale alignment using neural networks and an optimal transport algorithm</a></h2>
+        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Lili Yu, Tao Lei.</p>
+        <p className="journalText"> <span className="journalName">United States Patent US11238278B1</span>, 2022.</p>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://www.transperfect.com/dataforce/aisdet-journal"> AI for Drug Development</a></h2>
+        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Kirk Swanson.</p>
+        <p className="journalText"> <span className="journalName">Journal of the Italian Association of Digital Health and Telemedicine (AiSDeT)</span>, 2021.</p>
+
+        <Divider />
+
         <h2 className="publicationTitle"><a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00502"> Uncertainty Quantification Using Neural Networks for Molecular Property Prediction</a></h2>
         <p className="authorsText"> Lior Hirschfeld, <span className="selfAuthor">Kyle Swanson</span>, Kevin Yang, Regina Barzilay, and Connor Coley.</p>
         <p className="journalText"> <span className="journalName">Journal of Chemical Information and Modeling</span>, 2020.</p>

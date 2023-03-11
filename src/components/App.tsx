@@ -1,4 +1,4 @@
-import { Icon, Layout } from "antd";
+import { Layout } from "antd";
 import Menu from "antd/es/menu";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import PublicationsPage from "./PublicationsPage";
 import NamePage from "./NamePage";
 import ProjectsPage from "./ProjectsPage";
-import CVPage from "./CVPage";
 
 import "./App.scss";
 
@@ -34,9 +33,6 @@ class App extends Component {
               <Menu.Item key="publications">
                 <Link to="/publications">Publications</Link>
               </Menu.Item>
-              <Menu.Item key="resume">
-                <Link to="/resume">Resume</Link>
-              </Menu.Item>
               <Menu.Item key="projects">
                 <Link to="/projects">Other Projects</Link>
               </Menu.Item>
@@ -45,15 +41,15 @@ class App extends Component {
           <Content style={{minHeight: "calc(100vh - 110px)" }}>
             <Route exact path="/" component={NamePage} />
             <Route path="/publications" component={PublicationsPage} />
-            <Route path="/resume" component={CVPage} />
             <Route path="/projects" component={ProjectsPage} />
           </Content>
           <Footer style={{ textAlign: "center" }}>
-            <span><a href="mailto:swansonk.14@gmail.com"><Icon type="mail" /> Email</a></span>
-            <span><a href="https://github.com/swansonk14"><Icon type="github" /> GitHub</a></span>
-            <span><a href="https://linkedin.com/in/kyle-swanson-564ab787"><Icon type="linkedin" /> LinkedIn</a></span>
-            {/* TODO: Google Scholar and Orcid */}
-            <p>© 2020 Kyle Swanson. <a href="https://github.com/swansonk14/PersonalWebsite">Source Code</a></p>
+            <span><a href="mailto:swansonk.14@gmail.com"> Email</a></span>
+            <span><a href="https://github.com/swansonk14"> GitHub</a></span>
+            <span><a href="https://linkedin.com/in/kyle-swanson-564ab787"> LinkedIn</a></span>
+            <span><a href="https://scholar.google.com/citations?user=seqcYSUAAAAJ&hl=en"> Google Scholar</a></span>
+            <span><a href="https://orcid.org/0000-0002-7385-7844"> ORCID</a></span>
+            <p>© 2023 Kyle Swanson. <a href="https://github.com/swansonk14/PersonalWebsite">Source Code</a></p>
           </Footer>
         </Layout>
       </Router>
