@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import "./App.scss";
+import "./App.css";
 
 class NamePage extends Component {
 
-  public render() {
+  render() {
     return (
       <div className="Page">
         <h1 className="nameTitle">Kyle Swanson</h1>
-        <img className="selfImage" src="images/kyle_swanson.png" alt="Image of Kyle Swanson"></img>
+        <img className="selfImage" src="images/kyle_swanson.png" alt="Kyle Swanson"></img>
         <p>I am currently a PhD student in computer science at Stanford University advised by <a href="https://www.james-zou.com/">Professor James Zou</a>, and I am studying as a <a href="https://knight-hennessy.stanford.edu/">Knight-Hennessy Scholar</a>. I previously spent two years in the United Kingdom on a <a href="https://www.marshallscholarship.org/">Marshall Scholarship</a> during which I completed an MSc in biotechnology at Imperial College London and an MASt in mathematical statistics at the University of Cambridge (Trinity College). Before that, I was at the Massachusetts Institute of Technology, where I obtained a BS in Computer Science and Engineering (Course 6-3) and Mathematics (Course 18) and an MEng in Computer Science and Engineering, supervised by <a href="https://www.regina.csail.mit.edu/">Professor Regina Barzilay</a> in MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL).</p>
 
         <p>My research interests focus primarily on applications of machine learning to healthcare. As an undergraduate, I spent two years in Professor Barzilay's lab developing convolutional neural networks for breast cancer detection and risk prediction. We specifically focused on predicting breast density, an important risk factor for breast cancer, and developed a <a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2018180694">breast density prediction model</a> with accuracy on par with expert radiologists. In January of 2018, we implemented our model in the clinic at Massachusetts General Hospital, where it continues to aid radiologists.</p>

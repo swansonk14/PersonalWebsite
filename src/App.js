@@ -1,25 +1,25 @@
+import './App.css';
+
 import { Layout } from "antd";
 import Menu from "antd/es/menu";
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 
 import PublicationsPage from "./PublicationsPage";
 import NamePage from "./NamePage";
 import ProjectsPage from "./ProjectsPage";
 
-import "./App.scss";
-
 const { Header, Content, Footer } = Layout;
 
 class App extends Component {
 
-  public handleClick = (e: any) => {
+  handleClick = (e) => {
     this.setState({
       current: e.key,
     });
   }
 
-  public render() {
+  render() {
     return (
       <Router>
         <Layout>
@@ -34,14 +34,16 @@ class App extends Component {
                 <Link to="/publications">Publications</Link>
               </Menu.Item>
               <Menu.Item key="projects">
-                <Link to="/projects">Other Projects</Link>
+                <Link to="/projects">Projects</Link>
               </Menu.Item>
             </Menu>
           </Header>
           <Content style={{minHeight: "calc(100vh - 110px)" }}>
-            <Route exact path="/" component={NamePage} />
-            <Route path="/publications" component={PublicationsPage} />
-            <Route path="/projects" component={ProjectsPage} />
+            <Routes>
+              <Route exact path="/" element={<NamePage />} />
+              <Route path="/publications" element={<PublicationsPage />} />
+              <Route path="/projects" element={<ProjectsPage />} />
+            </Routes>
           </Content>
           <Footer style={{ textAlign: "center" }}>
             <span><a href="mailto:swansonk.14@gmail.com"> Email</a></span>

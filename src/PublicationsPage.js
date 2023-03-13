@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Divider } from 'antd';
-import "./App.scss";
+import "./App.css";
 
 class PublicationsPage extends Component {
 
-  public render() {
+  render() {
     return (
       <div className="Page">
         <h1>Publications</h1>

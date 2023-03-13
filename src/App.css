@@ -3,9 +3,14 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
@@ -17,21 +22,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.ant-layout-header {
-  padding: 0;
-  background-color: #fff;
-}
-
-.ant-layout-content {
-  background-color: #f5f5f8;
-}
-
-.Menu {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
 }
 
 .App-link {
@@ -47,13 +37,41 @@
   }
 }
 
-.Page{
+.ant-layout-header {
+  padding: 0;
+  background-color: #fff;
+}
+
+.ant-layout-content {
+  background-color: #f5f5f8;
+}
+
+.ant-layout-footer {
+  background-color: #e6e6e6;
+  border-top: solid 1px #aaa;
+}
+
+.ant-layout-header {
+  height: 40px
+}
+
+.Menu {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Page {
   text-align: left;
   margin: 2em auto;
   margin-top: calc(35px + 2em);
   margin-bottom: calc(20px + 2em);
   max-width: calc(1000px - 4em);
   font-size: 18px;
+  line-height: 1.5;
   @media (max-width: 500px) {
     margin-left: 10px;
     margin-right: 10px;
@@ -78,11 +96,6 @@
   width: 20%;
   float: left;
   margin-right: 14px;
-}
-
-.react-pdf__Document {
-  display: flex;
-  justify-content: center;
 }
 
 .selfAuthor {
@@ -111,15 +124,6 @@
   width: 80%;
   display: block;
   margin: 0 auto;
-}
-
-.ant-layout-footer {
-  background-color: #e6e6e6;
-  border-top: solid 1px #aaa;
-}
-
-.ant-layout-header {
-  height: 40px
 }
 
 footer p {

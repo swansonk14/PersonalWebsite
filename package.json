@@ -1,23 +1,17 @@
 {
-  "name": "personal_website",
-  "homepage": ".",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "24.0.15",
-    "@types/node": "12.0.10",
-    "@types/react": "16.8.22",
-    "@types/react-dom": "16.8.4",
-    "@types/react-pdf": "^4.0.6",
-    "@types/react-router-dom": "^5.1.6",
-    "antd": "^3.26.18",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-pdf": "^4.2.0",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
-    "typescript": "3.5.2"
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,7 +20,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -39,9 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "node-sass": "^4.14.1",
-    "tslint": "^5.20.1"
   }
 }
