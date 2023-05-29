@@ -9,6 +9,27 @@ class PublicationsPage extends Component {
       <div className="Page">
         <h1>Publications</h1>
 
+        <h2 className="publicationTitle"><a href="https://www.nature.com/articles/s41589-023-01349-8"> Deep learning-guided discovery of an antibiotic targeting <i>Acinetobacter baumannii</i></a></h2>
+        <p className="authorsText"> Gary Liu<sup>*</sup>, Denise B. Catacutan<sup>*</sup>, Khushi Rathod<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Wengong Jin, Jody C. Mohammed, Anush Chiappino-Pepe, Saad A. Syed, Meghan Fragis, Kenneth Rachwalski, Jakob Magolan, Michael G. Surette, Brian K. Coombes, Tommi Jaakkola, Regina Barzilay, James J. Collins, and Jonathan M. Stokes.</p>
+        <p className="journalText"> <span className="journalName">Nature Chemical Biology</span>, 2023.</p>
+        <div className="suppInfo">
+          <h4>News</h4>
+          <p><a href="https://www.bbc.com/news/health-65709834">New superbug-killing antibiotic discovered using AI</a>, BBC.</p>
+          <p><a href="https://news.mit.edu/2023/using-ai-scientists-combat-drug-resistant-infections-0525">Using AI, scientists find a drug that could combat drug-resistant infections</a>, MIT News.</p>
+        </div>
+
+        <Divider />
+
+        <h2 className="publicationTitle"><a href="https://academic.oup.com/pnasnexus/advance-article/doi/10.1093/pnasnexus/pgad171/7173167"> 7-<i>UP</i>: generating <i>in silico</i> CODEX from a small set of immunofluorescence markers</a></h2>
+        <p className="authorsText"> Eric Wu<sup>*</sup>, Alexandro E Trevino<sup>*</sup>, Zhenqin Wu, <span className="selfAuthor">Kyle Swanson</span>, Honesty J Kim, H Blaize D’Angio, Ryan Preska, Aaron E Chiou, Gregory W Charville, Piero Dalerba, Umamaheswar Duvvuri, Alexander D Colevas, Jelena Levi, Nikita Bedi, Serena Chang, John Sunwoo, Ann Marie Egloff, Ravindra Uppaluri, Aaron T Mayer, and James Zou.</p>
+        <p className="journalText"> <span className="journalName">PNAS Nexus</span>, 2023.</p>
+        <div className="suppInfo">
+          <h4>Supporting Information</h4>
+          <p>Code: <a href="https://gitlab.com/enable-medicine-public/7-up">https://gitlab.com/enable-medicine-public/7-up</a></p>
+        </div>
+
+        <Divider />
+
         <h2 className="publicationTitle"><a href="https://www.sciencedirect.com/science/article/pii/S0092867423000946"> From patterns to patients: Advances in clinical machine learning for cancer diagnosis, prognosis, and treatment</a></h2>
         <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Eric Wu<sup>*</sup>, Angela Zhang<sup>*</sup>, Ash A. Alizadeh, James Zou.</p>
         <p className="journalText"> <span className="journalName">Cell</span>, 2023.</p>
