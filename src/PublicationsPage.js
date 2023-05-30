@@ -15,6 +15,7 @@ class PublicationsPage extends Component {
         <div className="suppInfo">
           <h4>News</h4>
           <p><a href="https://www.bbc.com/news/health-65709834">New superbug-killing antibiotic discovered using AI</a>, BBC.</p>
+          <p><a href="https://www.cnn.com/2023/05/25/health/antibiotic-artificial-intelligence-superbug/index.html">A new antibiotic, discovered with artificial intelligence, may defeat a dangerous superbug</a>, CNN.</p>
           <p><a href="https://news.mit.edu/2023/using-ai-scientists-combat-drug-resistant-infections-0525">Using AI, scientists find a drug that could combat drug-resistant infections</a>, MIT News.</p>
         </div>
 
