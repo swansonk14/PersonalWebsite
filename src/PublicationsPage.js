@@ -1,179 +1,354 @@
-import React, { Component } from "react";
-import { Divider } from 'antd';
+import React, {Component} from "react";
+import {Divider} from 'antd';
 import "./App.css";
 
 class PublicationsPage extends Component {
 
-  render() {
-    return (
-      <div className="Page">
-        <h1>Publications</h1>
+    render() {
+        return (
+            <div className="Page">
+                <h1>Publications</h1>
 
-        <h2 className="publicationTitle"><a href="https://www.nature.com/articles/s41589-023-01349-8"> Deep learning-guided discovery of an antibiotic targeting <i>Acinetobacter baumannii</i></a></h2>
-        <p className="authorsText"> Gary Liu<sup>*</sup>, Denise B. Catacutan<sup>*</sup>, Khushi Rathod<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Wengong Jin, Jody C. Mohammed, Anush Chiappino-Pepe, Saad A. Syed, Meghan Fragis, Kenneth Rachwalski, Jakob Magolan, Michael G. Surette, Brian K. Coombes, Tommi Jaakkola, Regina Barzilay, James J. Collins, and Jonathan M. Stokes.</p>
-        <p className="journalText"> <span className="journalName">Nature Chemical Biology</span>, 2023.</p>
-        <div className="suppInfo">
-          <h4>News</h4>
-          <p><a href="https://www.bbc.com/news/health-65709834">New superbug-killing antibiotic discovered using AI</a>, BBC.</p>
-          <p><a href="https://www.cnn.com/2023/05/25/health/antibiotic-artificial-intelligence-superbug/index.html">A new antibiotic, discovered with artificial intelligence, may defeat a dangerous superbug</a>, CNN.</p>
-          <p><a href="https://news.mit.edu/2023/using-ai-scientists-combat-drug-resistant-infections-0525">Using AI, scientists find a drug that could combat drug-resistant infections</a>, MIT News.</p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://www.nature.com/articles/s42256-024-00809-7"> Generative AI
+                    for designing and validating easily synthesizable and structurally novel antibiotics</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Gary
+                    Liu<sup>*</sup>, Denise B. Catacutan, Autumn Arnold, James Zou, and Jonathan M. Stokes.
+                </p>
+                <p className="journalText"><span className="journalName">Nature Machine Intelligence</span>, 2024.</p>
+                <div className="suppInfo">
+                    <h4>News</h4>
+                    <p><a href="https://med.stanford.edu/news/all-news/2024/03/ai-drug-development.html">Generative AI
+                        develops potential new drugs for antibiotic-resistant bacteria</a>, Stanford Medicine News.</p>
+                    <p><a
+                        href="https://brighterworld.mcmaster.ca/articles/artificial-intelligence-model-synthemol-superbug-fighting-antibiotics/">Researchers
+                        invent artificial intelligence model to design new superbug-fighting antibiotics</a>, Brighter
+                        World &ndash; McMaster University.
+                    </p>
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/swansonk14/SyntheMol">https://github.com/swansonk14/SyntheMol</a>
+                    </p>
+                    <p>Data & Models: <a
+                        href="https://zenodo.org/records/10257839">https://zenodo.org/records/10257839</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://academic.oup.com/pnasnexus/advance-article/doi/10.1093/pnasnexus/pgad171/7173167"> 7-<i>UP</i>: generating <i>in silico</i> CODEX from a small set of immunofluorescence markers</a></h2>
-        <p className="authorsText"> Eric Wu<sup>*</sup>, Alexandro E Trevino<sup>*</sup>, Zhenqin Wu, <span className="selfAuthor">Kyle Swanson</span>, Honesty J Kim, H Blaize D’Angio, Ryan Preska, Aaron E Chiou, Gregory W Charville, Piero Dalerba, Umamaheswar Duvvuri, Alexander D Colevas, Jelena Levi, Nikita Bedi, Serena Chang, John Sunwoo, Ann Marie Egloff, Ravindra Uppaluri, Aaron T Mayer, and James Zou.</p>
-        <p className="journalText"> <span className="journalName">PNAS Nexus</span>, 2023.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://gitlab.com/enable-medicine-public/7-up">https://gitlab.com/enable-medicine-public/7-up</a></p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://www.biorxiv.org/content/10.1101/2023.12.28.573531v1"> ADMET-AI: A machine learning
+                    ADMET platform for evaluation of large-scale chemical libraries</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Parker Walther, Jeremy
+                    Leitz, Souhrid Mukherjee, Joseph C. Wu, Rabindra V. Shivnaraine, and James Zou.
+                </p>
+                <p className="journalText"><span className="journalName">bioRxiv</span>, 2023.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Website: <a href="https://admet.ai.greenstonebio.com">https://admet.ai.greenstonebio.com</a></p>
+                    <p>Blog: <a
+                        href="https://portal.valencelabs.com/blogs/post/admet-ai-a-machine-learning-admet-platform-for-evaluation-of-large-scale-QPEa0j5OTYYHTaA">Valence
+                        Portal Blog</a></p>
+                    <p>Code: <a
+                        href="https://github.com/swansonk14/admet_ai">https://github.com/swansonk14/admet_ai</a>
+                    </p>
+                    <p>Data & Models: <a
+                        href="https://zenodo.org/records/10372419">https://zenodo.org/records/10372419</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.sciencedirect.com/science/article/pii/S0092867423000946"> From patterns to patients: Advances in clinical machine learning for cancer diagnosis, prognosis, and treatment</a></h2>
-        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Eric Wu<sup>*</sup>, Angela Zhang<sup>*</sup>, Ash A. Alizadeh, James Zou.</p>
-        <p className="journalText"> <span className="journalName">Cell</span>, 2023.</p>
+                <h2 className="publicationTitle"><a href="https://www.nature.com/articles/s41589-023-01349-8"> Deep
+                    learning-guided discovery of an antibiotic targeting <i>Acinetobacter baumannii</i></a></h2>
+                <p className="authorsText"> Gary Liu<sup>*</sup>, Denise B. Catacutan<sup>*</sup>, Khushi
+                    Rathod<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Wengong Jin, Jody C. Mohammed,
+                    Anush Chiappino-Pepe, Saad A. Syed, Meghan Fragis, Kenneth Rachwalski, Jakob Magolan, Michael G.
+                    Surette, Brian K. Coombes, Tommi Jaakkola, Regina Barzilay, James J. Collins, and Jonathan M.
+                    Stokes.
+                </p>
+                <p className="journalText"><span className="journalName">Nature Chemical Biology</span>, 2023.</p>
+                <div className="suppInfo">
+                    <h4>News</h4>
+                    <p><a href="https://www.bbc.com/news/health-65709834">New superbug-killing antibiotic discovered
+                        using
+                        AI</a>, BBC.</p>
+                    <p><a
+                        href="https://www.cnn.com/2023/05/25/health/antibiotic-artificial-intelligence-superbug/index.html">A
+                        new antibiotic, discovered with artificial intelligence, may defeat a dangerous superbug</a>,
+                        CNN.
+                    </p>
+                    <p><a href="https://news.mit.edu/2023/using-ai-scientists-combat-drug-resistant-infections-0525">Using
+                        AI, scientists find a drug that could combat drug-resistant infections</a>, MIT News.</p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.biorxiv.org/content/10.1101/2023.02.03.526939v1"> Towards Universal Cell Embeddings: Integrating Single-cell RNA-seq Datasets across Species with SATURN</a></h2>
-        <p className="authorsText"> Yanay Rosen<sup>*</sup>, Maria Brbić<sup>*</sup>, Yusuf Roohani<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Ziang Li, Jure Leskovec.</p>
-        <p className="journalText"> <span className="journalName">bioRxiv</span>, 2023.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://github.com/snap-stanford/saturn">https://github.com/snap-stanford/saturn</a></p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://academic.oup.com/pnasnexus/advance-article/doi/10.1093/pnasnexus/pgad171/7173167"> 7-<i>UP</i>:
+                    generating <i>in silico</i> CODEX from a small set of immunofluorescence markers</a></h2>
+                <p className="authorsText"> Eric Wu<sup>*</sup>, Alexandro E Trevino<sup>*</sup>, Zhenqin Wu, <span
+                    className="selfAuthor">Kyle Swanson</span>, Honesty J Kim, H Blaize D’Angio, Ryan Preska, Aaron E
+                    Chiou,
+                    Gregory W Charville, Piero Dalerba, Umamaheswar Duvvuri, Alexander D Colevas, Jelena Levi, Nikita
+                    Bedi,
+                    Serena Chang, John Sunwoo, Ann Marie Egloff, Ravindra Uppaluri, Aaron T Mayer, and James Zou.</p>
+                <p className="journalText"><span className="journalName">PNAS Nexus</span>, 2023.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://gitlab.com/enable-medicine-public/7-up">https://gitlab.com/enable-medicine-public/7-up</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://proceedings.mlr.press/v200/swanson22a"> Predicting Immune Escape with Pretrained Protein Language Model Embeddings</a></h2>
-        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Howard Chang<sup>*</sup>, James Zou<sup>*</sup>.</p>
-        <p className="journalText"> <span className="journalName">Proceedings of Machine Learning Research</span>, 2022.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://github.com/swansonk14/escape_embeddings">https://github.com/swansonk14/escape_embeddings</a></p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://www.sciencedirect.com/science/article/pii/S0092867423000946"> From patterns to
+                    patients:
+                    Advances in clinical machine learning for cancer diagnosis, prognosis, and treatment</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Eric
+                    Wu<sup>*</sup>,
+                    Angela Zhang<sup>*</sup>, Ash A. Alizadeh, James Zou.</p>
+                <p className="journalText"><span className="journalName">Cell</span>, 2023.</p>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.nature.com/articles/s41551-022-00951-w"> Graph deep learning for the characterization of tumour microenvironments from spatial protein profiles in tissue specimens</a></h2>
-        <p className="authorsText"> Zhenqin Wu<sup>*</sup>, Alexandro E Trevino<sup>*</sup>, Eric Wu, <span className="selfAuthor">Kyle Swanson</span>, Honesty J Kim, H Blaize D’Angio, Ryan Preska, Gregory W Charville, Piero D Dalerba, Ann Marie Egloff, Ravindra Uppaluri, Umamaheswar Duvvuri, Aaron T Mayer, James Zou.</p>
-        <p className="journalText"> <span className="journalName">Nature Biomedical Engineering</span>, 2022.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://gitlab.com/enable-medicine-public/space-gm">https://gitlab.com/enable-medicine-public/space-gm</a></p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://www.biorxiv.org/content/10.1101/2023.02.03.526939v1"> Towards Universal Cell
+                    Embeddings:
+                    Integrating Single-cell RNA-seq Datasets across Species with SATURN</a></h2>
+                <p className="authorsText"> Yanay Rosen<sup>*</sup>, Maria Brbić<sup>*</sup>, Yusuf
+                    Roohani<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Ziang Li, Jure Leskovec.</p>
+                <p className="journalText"><span className="journalName">bioRxiv</span>, 2023.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/snap-stanford/saturn">https://github.com/snap-stanford/saturn</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.biorxiv.org/content/10.1101/2022.06.03.494624v1"> <i>7-UP</i>: generating <i>in silico</i> CODEX from a small set of immunofluorescence markers</a></h2>
-        <p className="authorsText"> Eric Wu<sup>*</sup>, Alexandro E. Trevino<sup>*</sup>, Zhenqin Wu, <span className="selfAuthor">Kyle Swanson</span>, Honesty J. Kim, H. Blaize D’Angio, Ryan Preska, Gregory W. Charville, Piero D. Dalerba, Umamaheswar Duvvuri, Jelena Levi, A. Dimitrios Colevas, Nikita Bedi, Serena Chang, John B. Sunwoo, Aaron T. Mayer, James Zou.</p>
-        <p className="journalText"> <span className="journalName">bioRxiv</span>, 2022.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://gitlab.com/enable-medicine-public/7-up">https://gitlab.com/enable-medicine-public/7-up</a></p>
-        </div>
+                <h2 className="publicationTitle"><a href="https://proceedings.mlr.press/v200/swanson22a"> Predicting
+                    Immune
+                    Escape with Pretrained Protein Language Model Embeddings</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Howard Chang<sup>*</sup>,
+                    James
+                    Zou<sup>*</sup>.</p>
+                <p className="journalText"><span className="journalName">Proceedings of Machine Learning Research</span>,
+                    2022.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/swansonk14/escape_embeddings">https://github.com/swansonk14/escape_embeddings</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://arxiv.org/abs/2204.08105"> Monte Carlo Tree Search for Interpreting Stress in Natural Language</a></h2>
-        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Joy Hsu, Mirac Suzgun.</p>
-        <p className="journalText"> <span className="journalName">Second Workshop on LT-EDI at ACL</span>, 2022.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://github.com/swansonk14/MCTS_Interpretability">https://github.com/swansonk14/MCTS_Interpretability</a></p>
-        </div>
+                <h2 className="publicationTitle"><a href="https://www.nature.com/articles/s41551-022-00951-w"> Graph
+                    deep
+                    learning for the characterization of tumour microenvironments from spatial protein profiles in
+                    tissue
+                    specimens</a></h2>
+                <p className="authorsText"> Zhenqin Wu<sup>*</sup>, Alexandro E Trevino<sup>*</sup>, Eric Wu, <span
+                    className="selfAuthor">Kyle Swanson</span>, Honesty J Kim, H Blaize D’Angio, Ryan Preska, Gregory W
+                    Charville, Piero D Dalerba, Ann Marie Egloff, Ravindra Uppaluri, Umamaheswar Duvvuri, Aaron T Mayer,
+                    James Zou.</p>
+                <p className="journalText"><span className="journalName">Nature Biomedical Engineering</span>, 2022.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://gitlab.com/enable-medicine-public/space-gm">https://gitlab.com/enable-medicine-public/space-gm</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://patents.google.com/patent/US11238278B1/en"> File matching with rationale alignment using neural networks and an optimal transport algorithm</a></h2>
-        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Lili Yu, Tao Lei.</p>
-        <p className="journalText"> <span className="journalName">United States Patent US11238278B1</span>, 2022.</p>
+                <h2 className="publicationTitle"><a href="https://www.biorxiv.org/content/10.1101/2022.06.03.494624v1">
+                    <i>7-UP</i>: generating <i>in silico</i> CODEX from a small set of immunofluorescence markers</a>
+                </h2>
+                <p className="authorsText"> Eric Wu<sup>*</sup>, Alexandro E. Trevino<sup>*</sup>, Zhenqin Wu, <span
+                    className="selfAuthor">Kyle Swanson</span>, Honesty J. Kim, H. Blaize D’Angio, Ryan Preska, Gregory
+                    W.
+                    Charville, Piero D. Dalerba, Umamaheswar Duvvuri, Jelena Levi, A. Dimitrios Colevas, Nikita Bedi,
+                    Serena
+                    Chang, John B. Sunwoo, Aaron T. Mayer, James Zou.</p>
+                <p className="journalText"><span className="journalName">bioRxiv</span>, 2022.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://gitlab.com/enable-medicine-public/7-up">https://gitlab.com/enable-medicine-public/7-up</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.transperfect.com/dataforce/aisdet-journal"> AI for Drug Development</a></h2>
-        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Kirk Swanson.</p>
-        <p className="journalText"> <span className="journalName">Journal of the Italian Association of Digital Health and Telemedicine (AiSDeT)</span>, 2021.</p>
+                <h2 className="publicationTitle"><a href="https://arxiv.org/abs/2204.08105"> Monte Carlo Tree Search for
+                    Interpreting Stress in Natural Language</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Joy Hsu, Mirac Suzgun.</p>
+                <p className="journalText"><span className="journalName">Second Workshop on LT-EDI at ACL</span>, 2022.
+                </p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/swansonk14/MCTS_Interpretability">https://github.com/swansonk14/MCTS_Interpretability</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00502"> Uncertainty Quantification Using Neural Networks for Molecular Property Prediction</a></h2>
-        <p className="authorsText"> Lior Hirschfeld, <span className="selfAuthor">Kyle Swanson</span>, Kevin Yang, Regina Barzilay, and Connor Coley.</p>
-        <p className="journalText"> <span className="journalName">Journal of Chemical Information and Modeling</span>, 2020.</p>
+                <h2 className="publicationTitle"><a href="https://patents.google.com/patent/US11238278B1/en"> File
+                    matching
+                    with rationale alignment using neural networks and an optimal transport algorithm</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Lili Yu, Tao Lei.</p>
+                <p className="journalText"><span className="journalName">United States Patent US11238278B1</span>, 2022.
+                </p>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6209-Paper.pdf"> Improving Molecular Design by Stochastic Iterative Target Augmentation</a></h2>
-        <p className="authorsText"> Kevin Yang, Wengong Jin, <span className="selfAuthor">Kyle Swanson</span>, Regina Barzilay, and Tommi Jaakkola.</p>
-        <p className="journalText"> <span className="journalName">Proceedings of the 37th International Conference on Machine Learning</span>, 2020.</p>
+                <h2 className="publicationTitle"><a href="https://www.transperfect.com/dataforce/aisdet-journal"> AI for
+                    Drug Development</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Kirk Swanson.</p>
+                <p className="journalText"><span className="journalName">Journal of the Italian Association of Digital Health and Telemedicine (AiSDeT)</span>,
+                    2021.</p>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.aclweb.org/anthology/2020.acl-main.496/"> Rationalizing Text Matching: Learning Sparse Alignments via Optimal Transport</a></h2>
-        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Lili Yu<sup>*</sup>, and Tao Lei.</p>
-        <p className="journalText"> <span className="journalName">Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</span>, 2020.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://github.com/asappresearch/rationale-alignment">github.com/asappresearch/rationale-alignment</a></p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00502"> Uncertainty Quantification Using
+                    Neural
+                    Networks for Molecular Property Prediction</a></h2>
+                <p className="authorsText"> Lior Hirschfeld, <span className="selfAuthor">Kyle Swanson</span>, Kevin
+                    Yang,
+                    Regina Barzilay, and Connor Coley.</p>
+                <p className="journalText"><span
+                    className="journalName">Journal of Chemical Information and Modeling</span>,
+                    2020.</p>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.cell.com/cell/fulltext/S0092-8674(20)30102-1"> A Deep Learning Approach to Antibiotic Discovery</a></h2>
-        <p className="authorsText"> Jonathan M. Stokes, Kevin Yang<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Wengong Jin, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, Shawn French, Lindsey A. Carfrae, Zohar Bloom-Ackerman, Victoria M. Tran, Anush Chiappino-Pepe, Ahmed H. Badran, Ian W. Andrews, Emma J. Chory, George M. Church, Eric D. Brown, Tommi S. Jaakkola, Regina Barzilay, and James J. Collins.</p>
-        <p className="journalText"> <span className="journalName">Cell</span>, 2020.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://github.com/chemprop/chemprop">github.com/chemprop/chemprop</a></p>
-          <p>Demo: <a href="http://chemprop.csail.mit.edu">chemprop.csail.mit.edu</a></p>
-          <br></br>
-          <h4>News</h4>
-          <p><a href="https://www.nature.com/articles/d41586-020-00018-3">Powerful antibiotics discovered using AI</a>, Nature News.</p>
-          <p><a href="https://www.theguardian.com/society/2020/feb/20/antibiotic-that-kills-drug-resistant-bacteria-discovered-through-ai">Powerful antibiotic discovered using machine learning for first time</a>, The Guardian.</p>
-          <p><a href="https://www.bbc.co.uk/news/health-51586010">Scientists discover powerful antibiotic using AI</a>, BBC.</p>
-          <p><a href="http://news.mit.edu/2020/artificial-intelligence-identifies-new-antibiotic-0220">Artificial intelligence yields new antibiotic</a>, MIT News.</p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://proceedings.icml.cc/static/paper_files/icml/2020/6209-Paper.pdf"> Improving Molecular
+                    Design by Stochastic Iterative Target Augmentation</a></h2>
+                <p className="authorsText"> Kevin Yang, Wengong Jin, <span className="selfAuthor">Kyle Swanson</span>,
+                    Regina Barzilay, and Tommi Jaakkola.</p>
+                <p className="journalText"><span className="journalName">Proceedings of the 37th International Conference on Machine Learning</span>,
+                    2020.</p>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://pubs.rsc.org/en/content/articlelanding/2020/sm/c9sm01903k#!divAbstract"> Deep learning for automated classification and characterization of amorphous materials</a></h2>
-        <p className="authorsText"> Kirk Swanson, Shubhendu Trivedi, Joshua Lequieu, <span className="selfAuthor">Kyle Swanson</span>, and Risi Kondor.</p>
-        <p className="journalText"> <span className="journalName">Soft Matter</span>, 2020.</p>
+                <h2 className="publicationTitle"><a
+                    href="https://www.aclweb.org/anthology/2020.acl-main.496/"> Rationalizing Text Matching: Learning
+                    Sparse
+                    Alignments via Optimal Transport</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Lili
+                    Yu<sup>*</sup>,
+                    and Tao Lei.</p>
+                <p className="journalText"><span className="journalName">Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</span>,
+                    2020.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/asappresearch/rationale-alignment">github.com/asappresearch/rationale-alignment</a>
+                    </p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00237"> Analyzing Learned Molecular Representations for Property Prediction</a></h2>
-        <p className="authorsText"> Kevin Yang<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Wengong Jin, Connor Coley, Philipp Eiden, Hua Gao, Angel Guzman-Perez, Timothy Hopper, Brian Kelley, Miriam Mathea, Andrew Palmer, Volker Settels, Tommi Jaakkola, Klavs Jensen, and Regina Barzilay.</p>
-        <p className="journalText"> <span className="journalName">Journal of Chemical Information and Modeling</span>, 2019.</p>
-        <div className="suppInfo">
-          <h4>Supporting Information</h4>
-          <p>Code: <a href="https://github.com/chemprop/chemprop">github.com/chemprop/chemprop</a></p>
-          <p>Demo: <a href="http://chemprop.csail.mit.edu">chemprop.csail.mit.edu</a></p>
-        </div>
+                <h2 className="publicationTitle"><a href="https://www.cell.com/cell/fulltext/S0092-8674(20)30102-1"> A
+                    Deep
+                    Learning Approach to Antibiotic Discovery</a></h2>
+                <p className="authorsText"> Jonathan M. Stokes, Kevin Yang<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>,
+                    Wengong Jin, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, Shawn French, Lindsey A.
+                    Carfrae,
+                    Zohar Bloom-Ackerman, Victoria M. Tran, Anush Chiappino-Pepe, Ahmed H. Badran, Ian W. Andrews, Emma
+                    J.
+                    Chory, George M. Church, Eric D. Brown, Tommi S. Jaakkola, Regina Barzilay, and James J. Collins.
+                </p>
+                <p className="journalText"><span className="journalName">Cell</span>, 2020.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a href="https://github.com/chemprop/chemprop">github.com/chemprop/chemprop</a></p>
+                    <p>Demo: <a href="http://chemprop.csail.mit.edu">chemprop.csail.mit.edu</a></p>
+                    <br></br>
+                    <h4>News</h4>
+                    <p><a href="https://www.nature.com/articles/d41586-020-00018-3">Powerful antibiotics discovered
+                        using
+                        AI</a>, Nature News.</p>
+                    <p><a
+                        href="https://www.theguardian.com/society/2020/feb/20/antibiotic-that-kills-drug-resistant-bacteria-discovered-through-ai">Powerful
+                        antibiotic discovered using machine learning for first time</a>, The Guardian.</p>
+                    <p><a href="https://www.bbc.co.uk/news/health-51586010">Scientists discover powerful antibiotic
+                        using
+                        AI</a>, BBC.</p>
+                    <p><a href="http://news.mit.edu/2020/artificial-intelligence-identifies-new-antibiotic-0220">Artificial
+                        intelligence yields new antibiotic</a>, MIT News.</p>
+                </div>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://www.aclweb.org/anthology/W19-4104/"> Building a Production Model for Retrieval-Based Chatbots</a></h2>
-        <p className="authorsText"> <span className="selfAuthor">Kyle Swanson</span>, Lili Yu, Christopher Fox, Jeremy Wohlwend, and Tao Lei.</p>
-        <p className="journalText"> <span className="journalName">Proceedings of the First Workshop on NLP for Conversational AI at the 57th Annual Meeting of the Association for Computational Linguistics</span>, 2019.</p>
+                <h2 className="publicationTitle"><a
+                    href="https://pubs.rsc.org/en/content/articlelanding/2020/sm/c9sm01903k#!divAbstract"> Deep learning
+                    for
+                    automated classification and characterization of amorphous materials</a></h2>
+                <p className="authorsText"> Kirk Swanson, Shubhendu Trivedi, Joshua Lequieu, <span
+                    className="selfAuthor">Kyle Swanson</span>,
+                    and Risi Kondor.</p>
+                <p className="journalText"><span className="journalName">Soft Matter</span>, 2020.</p>
 
-        <Divider />
+                <Divider/>
 
-        <h2 className="publicationTitle"><a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2018180694"> Mammographic Breast Density Assessment Using Deep Learning: Clinical Implementation</a></h2>
-        <p className="authorsText"> Constance Lehman, Adam Yala, Tal Schuster, Brian Dontchos, Manisha Bahl, <span className="selfAuthor">Kyle Swanson</span>, and Regina Barzilay.</p>
-        <p className="journalText"> <span className="journalName">Radiology</span>, 2018.</p>
-        <div className="suppInfo">
-          <h4>News</h4>
-          <p><a href="http://news.mit.edu/2018/AI-identifies-dense-tissue-breast-cancer-mammograms-1016">Automated system identifies dense tissue, a risk factor for breast cancer, in mammograms</a>, MIT News.</p>
-        </div>
+                <h2 className="publicationTitle"><a
+                    href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00237"> Analyzing
+                    Learned Molecular Representations for Property Prediction</a></h2>
+                <p className="authorsText"> Kevin Yang<sup>*</sup>, <span
+                    className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Wengong Jin, Connor Coley, Philipp Eiden,
+                    Hua
+                    Gao, Angel Guzman-Perez, Timothy Hopper, Brian Kelley, Miriam Mathea, Andrew Palmer, Volker Settels,
+                    Tommi Jaakkola, Klavs Jensen, and Regina Barzilay.</p>
+                <p className="journalText"><span
+                    className="journalName">Journal of Chemical Information and Modeling</span>,
+                    2019.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a href="https://github.com/chemprop/chemprop">github.com/chemprop/chemprop</a></p>
+                    <p>Demo: <a href="http://chemprop.csail.mit.edu">chemprop.csail.mit.edu</a></p>
+                </div>
 
-        <br></br>
-        <p className="footnote"><sup>*</sup>Denotes equal contribution.</p>
-      </div>
-    );
-  }
+                <Divider/>
+
+                <h2 className="publicationTitle"><a href="https://www.aclweb.org/anthology/W19-4104/"> Building a
+                    Production
+                    Model for Retrieval-Based Chatbots</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Lili Yu, Christopher Fox,
+                    Jeremy Wohlwend, and Tao Lei.</p>
+                <p className="journalText"><span className="journalName">Proceedings of the First Workshop on NLP for Conversational AI at the 57th Annual Meeting of the Association for Computational Linguistics</span>,
+                    2019.</p>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
+                    href="https://pubs.rsna.org/doi/full/10.1148/radiol.2018180694"> Mammographic Breast Density
+                    Assessment
+                    Using Deep Learning: Clinical Implementation</a></h2>
+                <p className="authorsText"> Constance Lehman, Adam Yala, Tal Schuster, Brian Dontchos, Manisha
+                    Bahl, <span
+                        className="selfAuthor">Kyle Swanson</span>, and Regina Barzilay.</p>
+                <p className="journalText"><span className="journalName">Radiology</span>, 2018.</p>
+                <div className="suppInfo">
+                    <h4>News</h4>
+                    <p><a href="http://news.mit.edu/2018/AI-identifies-dense-tissue-breast-cancer-mammograms-1016">Automated
+                        system identifies dense tissue, a risk factor for breast cancer, in mammograms</a>, MIT News.
+                    </p>
+                </div>
+
+                <br></br>
+                <p className="footnote"><sup>*</sup>Denotes equal contribution.</p>
+            </div>
+        );
+    }
 }
 
 export default PublicationsPage;
