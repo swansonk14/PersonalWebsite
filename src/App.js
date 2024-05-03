@@ -51,7 +51,7 @@ class App extends Component {
             <span><a href="https://linkedin.com/in/kyle-swanson-564ab787"> LinkedIn</a></span>
             <span><a href="https://scholar.google.com/citations?user=seqcYSUAAAAJ&hl=en"> Google Scholar</a></span>
             <span><a href="https://orcid.org/0000-0002-7385-7844"> ORCID</a></span>
-            <p>© 2023 Kyle Swanson. <a href="https://github.com/swansonk14/PersonalWebsite">Source Code</a></p>
+            <p>© 2024 Kyle Swanson. <a href="https://github.com/swansonk14/PersonalWebsite">Source Code</a></p>
           </Footer>
         </Layout>
       </Router>
