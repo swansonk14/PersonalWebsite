@@ -37,12 +37,12 @@ class PublicationsPage extends Component {
                 <Divider/>
 
                 <h2 className="publicationTitle"><a
-                    href="https://www.biorxiv.org/content/10.1101/2023.12.28.573531v1"> ADMET-AI: A machine learning
+                    href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae416/7698030?utm_source=authortollfreelink&utm_campaign=bioinformatics&utm_medium=email&guestAccessKey=f4fca1d2-49ec-4b10-b476-5aea3bf37045"> ADMET-AI: A machine learning
                     ADMET platform for evaluation of large-scale chemical libraries</a></h2>
                 <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Parker Walther, Jeremy
                     Leitz, Souhrid Mukherjee, Joseph C. Wu, Rabindra V. Shivnaraine, and James Zou.
                 </p>
-                <p className="journalText"><span className="journalName">bioRxiv</span>, 2023.</p>
+                <p className="journalText"><span className="journalName">Bioinformatics</span>, 2024.</p>
                 <div className="suppInfo">
                     <h4>Supporting Information</h4>
                     <p>Website: <a href="https://admet.ai.greenstonebio.com">https://admet.ai.greenstonebio.com</a></p>
