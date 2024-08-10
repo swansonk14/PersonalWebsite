@@ -10,6 +10,14 @@ class PublicationsPage extends Component {
                 <h1>Publications</h1>
 
                 <h2 className="publicationTitle"><a
+                    href="https://www.nature.com/articles/s41592-024-02354-y"> Language models for biological research: a primer</a></h2>
+                <p className="authorsText">Elana Simon<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, and James Zou.
+                </p>
+                <p className="journalText"><span className="journalName">Nature Methods</span>, 2024.</p>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
                     href="https://www.nature.com/articles/s42256-024-00809-7"> Generative AI
                     for designing and validating easily synthesizable and structurally novel antibiotics</a></h2>
                 <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Gary
@@ -37,7 +45,8 @@ class PublicationsPage extends Component {
                 <Divider/>
 
                 <h2 className="publicationTitle"><a
-                    href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae416/7698030?utm_source=authortollfreelink&utm_campaign=bioinformatics&utm_medium=email&guestAccessKey=f4fca1d2-49ec-4b10-b476-5aea3bf37045"> ADMET-AI: A machine learning
+                    href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae416/7698030?utm_source=authortollfreelink&utm_campaign=bioinformatics&utm_medium=email&guestAccessKey=f4fca1d2-49ec-4b10-b476-5aea3bf37045"> ADMET-AI:
+                    A machine learning
                     ADMET platform for evaluation of large-scale chemical libraries</a></h2>
                 <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Parker Walther, Jeremy
                     Leitz, Souhrid Mukherjee, Joseph C. Wu, Rabindra V. Shivnaraine, and James Zou.
