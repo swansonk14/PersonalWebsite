@@ -10,8 +10,10 @@ class PublicationsPage extends Component {
                 <h1>Publications</h1>
 
                 <h2 className="publicationTitle"><a
-                    href="https://www.nature.com/articles/s41592-024-02354-y"> Language models for biological research: a primer</a></h2>
-                <p className="authorsText">Elana Simon<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, and James Zou.
+                    href="https://www.nature.com/articles/s41592-024-02354-y"> Language models for biological research:
+                    a primer</a></h2>
+                <p className="authorsText">Elana Simon<sup>*</sup>, <span
+                    className="selfAuthor">Kyle Swanson</span><sup>*</sup>, and James Zou.
                 </p>
                 <p className="journalText"><span className="journalName">Nature Methods</span>, 2024.</p>
 
@@ -25,6 +27,13 @@ class PublicationsPage extends Component {
                 </p>
                 <p className="journalText"><span className="journalName">Nature Machine Intelligence</span>, 2024.</p>
                 <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/swansonk14/SyntheMol">https://github.com/swansonk14/SyntheMol</a>
+                    </p>
+                    <p>Data & Models: <a
+                        href="https://zenodo.org/records/10257839">https://zenodo.org/records/10257839</a>
+                    </p>
                     <h4>News</h4>
                     <p><a href="https://med.stanford.edu/news/all-news/2024/03/ai-drug-development.html">Generative AI
                         develops potential new drugs for antibiotic-resistant bacteria</a>, Stanford Medicine News.</p>
@@ -33,13 +42,8 @@ class PublicationsPage extends Component {
                         invent artificial intelligence model to design new superbug-fighting antibiotics</a>, Brighter
                         World &ndash; McMaster University.
                     </p>
-                    <h4>Supporting Information</h4>
-                    <p>Code: <a
-                        href="https://github.com/swansonk14/SyntheMol">https://github.com/swansonk14/SyntheMol</a>
-                    </p>
-                    <p>Data & Models: <a
-                        href="https://zenodo.org/records/10257839">https://zenodo.org/records/10257839</a>
-                    </p>
+                    <p><a href="https://www.newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs">How
+                        machines learned to discover drugs</a>, The New Yorker.</p>
                 </div>
 
                 <Divider/>
@@ -294,6 +298,8 @@ class PublicationsPage extends Component {
                         AI</a>, BBC.</p>
                     <p><a href="http://news.mit.edu/2020/artificial-intelligence-identifies-new-antibiotic-0220">Artificial
                         intelligence yields new antibiotic</a>, MIT News.</p>
+                    <p><a href="https://www.newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs">How
+                        machines learned to discover drugs</a>, The New Yorker.</p>
                 </div>
 
                 <Divider/>
