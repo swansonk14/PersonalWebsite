@@ -10,6 +10,14 @@ class PublicationsPage extends Component {
                 <h1>Publications</h1>
 
                 <h2 className="publicationTitle"><a
+                    href="https://www.annualreviews.org/content/journals/10.1146/annurev-pharmtox-022724-095035"> Next-Gen Therapeutics: Pioneering Drug Discovery with iPSCs, Genomics, AI, and Clinical Trials in a Dish</a></h2>
+                <p className="authorsText">Zehra Yildirim, <span className="selfAuthor">Kyle Swanson</span>, Xuekun Wu, James Zou, and Joseph C Wu.
+                </p>
+                <p className="journalText"><span className="journalName">Annual Review of Pharmocology and Toxicology</span>, 2024.</p>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
                     href="https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehae519/7756511?utm_source=authortollfreelink&utm_campaign=eurheartj&utm_medium=email&guestAccessKey=d8ce1cae-1734-4675-915c-81835fd06563"> Clinical
                     trials in-a-dish for cardiovascular medicine</a></h2>
                 <p className="authorsText">Xuekun Wu, <span
