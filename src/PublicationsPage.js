@@ -10,10 +10,52 @@ class PublicationsPage extends Component {
                 <h1>Publications</h1>
 
                 <h2 className="publicationTitle"><a
-                    href="https://www.annualreviews.org/content/journals/10.1146/annurev-pharmtox-022724-095035"> Next-Gen Therapeutics: Pioneering Drug Discovery with iPSCs, Genomics, AI, and Clinical Trials in a Dish</a></h2>
-                <p className="authorsText">Zehra Yildirim, <span className="selfAuthor">Kyle Swanson</span>, Xuekun Wu, James Zou, and Joseph C Wu.
+                    href="https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1"> The Virtual Lab: AI Agents
+                    Design New SARS-CoV-2 Nanobodies with Experimental Validation</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Wesley Wu, Nash
+                    L. Bulaong, John E. Pak, and James Zou.
                 </p>
-                <p className="journalText"><span className="journalName">Annual Review of Pharmocology and Toxicology</span>, 2024.</p>
+                <p className="journalText"><span className="journalName">bioRxiv</span>, 2024.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/zou-group/virtual-lab">https://github.com/zou-group/virtual-lab</a>
+                    </p>
+                    <h4>News</h4>
+                    <p><a href="https://analyticsindiamag.com/ai-insights-analysis/ai-scientists-are-here">AI Scientists
+                        Are Here</a>, Analytics India Magazine.</p>
+                </div>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
+                    href="https://openreview.net/forum?id=Vb1vVr75JT"> UniTox: Leveraging LLMs to Curate a Unified
+                    Dataset of Drug-Induced Toxicity from FDA Labels</a></h2>
+                <p className="authorsText">Jake Silberg, <span className="selfAuthor">Kyle Swanson</span>, Elana Simon,
+                    Angela Zhang, Zaniar Ghazizadeh, Scott Ogden, Hisham Hamadeh, and James Zou.</p>
+                <p className="journalText"><span className="journalName">NeurIPS Datasets and Benchmarks</span>, 2024.
+                </p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/jsilbergDS/UniTox">https://github.com/jsilbergDS/UniTox</a>
+                    </p>
+                    <p>Data: <a
+                        href="https://zenodo.org/records/14042913">https://zenodo.org/records/14042913</a>
+                    </p>
+                </div>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
+                    href="https://www.annualreviews.org/content/journals/10.1146/annurev-pharmtox-022724-095035"> Next-Gen
+                    Therapeutics: Pioneering Drug Discovery with iPSCs, Genomics, AI, and Clinical Trials in a Dish</a>
+                </h2>
+                <p className="authorsText">Zehra Yildirim, <span className="selfAuthor">Kyle Swanson</span>, Xuekun Wu,
+                    James Zou, and Joseph C. Wu.
+                </p>
+                <p className="journalText"><span
+                    className="journalName">Annual Review of Pharmocology and Toxicology</span>, 2024.</p>
 
                 <Divider/>
 
@@ -21,7 +63,7 @@ class PublicationsPage extends Component {
                     href="https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehae519/7756511?utm_source=authortollfreelink&utm_campaign=eurheartj&utm_medium=email&guestAccessKey=d8ce1cae-1734-4675-915c-81835fd06563"> Clinical
                     trials in-a-dish for cardiovascular medicine</a></h2>
                 <p className="authorsText">Xuekun Wu, <span
-                    className="selfAuthor">Kyle Swanson</span>, Zehra Yildirim, Wenqiang Liu, Ronglih Liao, and Joseph C
+                    className="selfAuthor">Kyle Swanson</span>, Zehra Yildirim, Wenqiang Liu, Ronglih Liao, and Joseph C.
                     Wu.
                 </p>
                 <p className="journalText"><span className="journalName">European Heart Journal</span>, 2024.</p>
