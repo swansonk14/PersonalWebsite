@@ -22,6 +22,8 @@ class PublicationsPage extends Component {
                         href="https://github.com/zou-group/virtual-lab">https://github.com/zou-group/virtual-lab</a>
                     </p>
                     <h4>News</h4>
+                    <p><a href="https://www.nature.com/articles/d41586-024-01684-3">Virtual lab powered by 'AI
+                        scientists' super-charges biomedical research</a>, Nature News.</p>
                     <p><a href="https://analyticsindiamag.com/ai-insights-analysis/ai-scientists-are-here">AI Scientists
                         Are Here</a>, Analytics India Magazine.</p>
                 </div>
@@ -63,7 +65,8 @@ class PublicationsPage extends Component {
                     href="https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehae519/7756511?utm_source=authortollfreelink&utm_campaign=eurheartj&utm_medium=email&guestAccessKey=d8ce1cae-1734-4675-915c-81835fd06563"> Clinical
                     trials in-a-dish for cardiovascular medicine</a></h2>
                 <p className="authorsText">Xuekun Wu, <span
-                    className="selfAuthor">Kyle Swanson</span>, Zehra Yildirim, Wenqiang Liu, Ronglih Liao, and Joseph C.
+                    className="selfAuthor">Kyle Swanson</span>, Zehra Yildirim, Wenqiang Liu, Ronglih Liao, and Joseph
+                    C.
                     Wu.
                 </p>
                 <p className="journalText"><span className="journalName">European Heart Journal</span>, 2024.</p>
