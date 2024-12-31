@@ -99,6 +99,7 @@ class PublicationsPage extends Component {
                         href="https://zenodo.org/records/10257839">https://zenodo.org/records/10257839</a>
                     </p>
                     <h4>News</h4>
+                    <p><a href="https://www.nytimes.com/2024/12/30/technology/good-tech-awards.html">The 2024 Good Tech Awards</a>, The New York Times.</p>
                     <p><a href="https://med.stanford.edu/news/all-news/2024/03/ai-drug-development.html">Generative AI
                         develops potential new drugs for antibiotic-resistant bacteria</a>, Stanford Medicine News.</p>
                     <p><a
