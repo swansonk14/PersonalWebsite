@@ -10,6 +10,14 @@ class PublicationsPage extends Component {
                 <h1>Publications</h1>
 
                 <h2 className="publicationTitle"><a
+                    href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.124.070413"> ADMET-AI Enables Interpretable Predictions of Drug-Induced Cardiotoxicity</a></h2>
+                <p className="authorsText">Souhrid Mukherjee<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Parker Walther, Rabindra V. Shivnaraine, Jeremy Leitz, Paul D. Pang, James Zou, and Joseph C. Wu.
+                </p>
+                <p className="journalText"><span className="journalName">Circulation</span>, 2025.</p>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
                     href="https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1"> The Virtual Lab: AI Agents
                     Design New SARS-CoV-2 Nanobodies with Experimental Validation</a></h2>
                 <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Wesley Wu, Nash
