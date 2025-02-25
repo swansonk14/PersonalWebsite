@@ -252,25 +252,6 @@ class PublicationsPage extends Component {
 
                 <Divider/>
 
-                <h2 className="publicationTitle"><a href="https://www.biorxiv.org/content/10.1101/2022.06.03.494624v1">
-                    <i>7-UP</i>: generating <i>in silico</i> CODEX from a small set of immunofluorescence markers</a>
-                </h2>
-                <p className="authorsText"> Eric Wu<sup>*</sup>, Alexandro E. Trevino<sup>*</sup>, Zhenqin Wu, <span
-                    className="selfAuthor">Kyle Swanson</span>, Honesty J. Kim, H. Blaize D’Angio, Ryan Preska, Gregory
-                    W.
-                    Charville, Piero D. Dalerba, Umamaheswar Duvvuri, Jelena Levi, A. Dimitrios Colevas, Nikita Bedi,
-                    Serena
-                    Chang, John B. Sunwoo, Aaron T. Mayer, James Zou.</p>
-                <p className="journalText"><span className="journalName">bioRxiv</span>, 2022.</p>
-                <div className="suppInfo">
-                    <h4>Supporting Information</h4>
-                    <p>Code: <a
-                        href="https://gitlab.com/enable-medicine-public/7-up">https://gitlab.com/enable-medicine-public/7-up</a>
-                    </p>
-                </div>
-
-                <Divider/>
-
                 <h2 className="publicationTitle"><a href="https://arxiv.org/abs/2204.08105"> Monte Carlo Tree Search for
                     Interpreting Stress in Natural Language</a></h2>
                 <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Joy Hsu, Mirac Suzgun.</p>
