@@ -10,6 +10,39 @@ class PublicationsPage extends Component {
                 <h1>Publications</h1>
 
                 <h2 className="publicationTitle"><a
+                    href="https://www.biorxiv.org/content/10.1101/2025.05.17.654017v1"> SyntheMol-RL: a flexible reinforcement learning framework for designing novel and synthesizable antibiotics</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Gary Liu<sup>*</sup>, Denise Catacutan<sup>*</sup>, Stewart McLellan, Autumn Arnold, Megan M. Tu, Eric D. Brown, James Zou, and Jonathan M. Stokes.</p>
+                <p className="journalText"><span className="journalName">bioRxiv</span>, 2025.
+                </p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/swansonk14/SyntheMol">https://github.com/swansonk14/SyntheMol</a>
+                    </p>
+                    <p>Data & Models: <a
+                        href="https://zenodo.org/records/15391268">https://zenodo.org/records/15391268</a>
+                    </p>
+
+                </div>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
+                    href="https://www.biorxiv.org/content/10.1101/2025.05.19.654988v1"> RL-Finetuning of OpenAI o1-mini to Enhance Biomedical Reasoning</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Yiqun T. Chen<sup>*</sup>,
+                    Aaron Jaech, and James Zou.</p>
+                <p className="journalText"><span className="journalName">Proceedings of Machine Learning Research</span>, 2025.
+                </p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code & Data: <a
+                        href="https://github.com/swansonk14/biomedical_o1">https://github.com/swansonk14/biomedical_o1</a>
+                    </p>
+                </div>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
                     href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.124.070413"> ADMET-AI Enables Interpretable Predictions of Drug-Induced Cardiotoxicity</a></h2>
                 <p className="authorsText">Souhrid Mukherjee<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Parker Walther, Rabindra V. Shivnaraine, Jeremy Leitz, Paul D. Pang, James Zou, and Joseph C. Wu.
                 </p>
@@ -32,8 +65,11 @@ class PublicationsPage extends Component {
                     <h4>News</h4>
                     <p><a href="https://www.nature.com/articles/d41586-024-01684-3">Virtual lab powered by 'AI
                         scientists' super-charges biomedical research</a>, Nature News.</p>
+                    <p><a href="https://www.nature.com/articles/d41586-025-02028-5">AI 'scientists' joined these research teams: here’s what happened</a>, Nature News.</p>
+                    <p><a href="https://indiaai.gov.in/article/stanford-researchers-create-virtual-lab-with-ai-scientists-to-automate-scientific-discovery">Stanford Researchers Create Virtual Lab with AI Scientists to Automate Scientific Discovery</a>, IndiaAI.</p>
                     <p><a href="https://analyticsindiamag.com/ai-insights-analysis/ai-scientists-are-here">AI Scientists
                         Are Here</a>, Analytics India Magazine.</p>
+                    <p><a href="https://www.freethink.com/artificial-intelligence/virtual-lab-interdisciplinary-research">Inside the "Virtual Lab" where AIs and humans collaborate</a>, Freethink.</p>
                 </div>
 
                 <Divider/>
