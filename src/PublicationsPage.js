@@ -28,6 +28,30 @@ class PublicationsPage extends Component {
                 <Divider/>
 
                 <h2 className="publicationTitle"><a
+                    href="https://www.nature.com/articles/s41586-025-09442-9"> The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies</a></h2>
+                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Wesley Wu, Nash
+                    L. Bulaong, John E. Pak, and James Zou.
+                </p>
+                <p className="journalText"><span className="journalName">Nature</span>, 2025.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/zou-group/virtual-lab">https://github.com/zou-group/virtual-lab</a>
+                    </p>
+                    <h4>News</h4>
+                    <p><a href="https://www.nature.com/articles/d41586-024-01684-3">Virtual lab powered by 'AI
+                        scientists' super-charges biomedical research</a>, Nature News.</p>
+                    <p><a href="https://www.nature.com/articles/d41586-025-02028-5">AI 'scientists' joined these research teams: here's what happened</a>, Nature News.</p>
+                    <p><a href="https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html">Researchers create 'virtual scientists' to solve complex biological problems</a>, Stanford Medicine News.</p>
+                    <p><a href="https://indiaai.gov.in/article/stanford-researchers-create-virtual-lab-with-ai-scientists-to-automate-scientific-discovery">Stanford Researchers Create Virtual Lab with AI Scientists to Automate Scientific Discovery</a>, IndiaAI.</p>
+                    <p><a href="https://analyticsindiamag.com/ai-insights-analysis/ai-scientists-are-here">AI Scientists
+                        Are Here</a>, Analytics India Magazine.</p>
+                    <p><a href="https://www.freethink.com/artificial-intelligence/virtual-lab-interdisciplinary-research">Inside the "Virtual Lab" where AIs and humans collaborate</a>, Freethink.</p>
+                </div>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
                     href="https://www.biorxiv.org/content/10.1101/2025.05.19.654988v1"> RL-Finetuning of OpenAI o1-mini to Enhance Biomedical Reasoning</a></h2>
                 <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Yiqun T. Chen<sup>*</sup>,
                     Aaron Jaech, and James Zou.</p>
@@ -47,30 +71,6 @@ class PublicationsPage extends Component {
                 <p className="authorsText">Souhrid Mukherjee<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Parker Walther, Rabindra V. Shivnaraine, Jeremy Leitz, Paul D. Pang, James Zou, and Joseph C. Wu.
                 </p>
                 <p className="journalText"><span className="journalName">Circulation</span>, 2025.</p>
-
-                <Divider/>
-
-                <h2 className="publicationTitle"><a
-                    href="https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1"> The Virtual Lab: AI Agents
-                    Design New SARS-CoV-2 Nanobodies with Experimental Validation</a></h2>
-                <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span>, Wesley Wu, Nash
-                    L. Bulaong, John E. Pak, and James Zou.
-                </p>
-                <p className="journalText"><span className="journalName">bioRxiv</span>, 2024.</p>
-                <div className="suppInfo">
-                    <h4>Supporting Information</h4>
-                    <p>Code: <a
-                        href="https://github.com/zou-group/virtual-lab">https://github.com/zou-group/virtual-lab</a>
-                    </p>
-                    <h4>News</h4>
-                    <p><a href="https://www.nature.com/articles/d41586-024-01684-3">Virtual lab powered by 'AI
-                        scientists' super-charges biomedical research</a>, Nature News.</p>
-                    <p><a href="https://www.nature.com/articles/d41586-025-02028-5">AI 'scientists' joined these research teams: here’s what happened</a>, Nature News.</p>
-                    <p><a href="https://indiaai.gov.in/article/stanford-researchers-create-virtual-lab-with-ai-scientists-to-automate-scientific-discovery">Stanford Researchers Create Virtual Lab with AI Scientists to Automate Scientific Discovery</a>, IndiaAI.</p>
-                    <p><a href="https://analyticsindiamag.com/ai-insights-analysis/ai-scientists-are-here">AI Scientists
-                        Are Here</a>, Analytics India Magazine.</p>
-                    <p><a href="https://www.freethink.com/artificial-intelligence/virtual-lab-interdisciplinary-research">Inside the "Virtual Lab" where AIs and humans collaborate</a>, Freethink.</p>
-                </div>
 
                 <Divider/>
 
@@ -181,6 +181,20 @@ class PublicationsPage extends Component {
 
                 <Divider/>
 
+                <h2 className="publicationTitle"><a
+                    href="https://www.biorxiv.org/content/10.1101/2023.02.03.526939v1"> Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN</a></h2>
+                <p className="authorsText"> Yanay Rosen<sup>*</sup>, Maria Brbić<sup>*</sup>, Yusuf
+                    Roohani<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Ziang Li, Jure Leskovec.</p>
+                <p className="journalText"><span className="journalName">Nature Methods</span>, 2024.</p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/snap-stanford/saturn">https://github.com/snap-stanford/saturn</a>
+                    </p>
+                </div>
+
+                <Divider/>
+
                 <h2 className="publicationTitle"><a href="https://www.nature.com/articles/s41589-023-01349-8"> Deep
                     learning-guided discovery of an antibiotic targeting <i>Acinetobacter baumannii</i></a></h2>
                 <p className="authorsText"> Gary Liu<sup>*</sup>, Denise B. Catacutan<sup>*</sup>, Khushi
@@ -233,22 +247,6 @@ class PublicationsPage extends Component {
                     Wu<sup>*</sup>,
                     Angela Zhang<sup>*</sup>, Ash A. Alizadeh, James Zou.</p>
                 <p className="journalText"><span className="journalName">Cell</span>, 2023.</p>
-
-                <Divider/>
-
-                <h2 className="publicationTitle"><a
-                    href="https://www.biorxiv.org/content/10.1101/2023.02.03.526939v1"> Towards Universal Cell
-                    Embeddings:
-                    Integrating Single-cell RNA-seq Datasets across Species with SATURN</a></h2>
-                <p className="authorsText"> Yanay Rosen<sup>*</sup>, Maria Brbić<sup>*</sup>, Yusuf
-                    Roohani<sup>*</sup>, <span className="selfAuthor">Kyle Swanson</span>, Ziang Li, Jure Leskovec.</p>
-                <p className="journalText"><span className="journalName">bioRxiv</span>, 2023.</p>
-                <div className="suppInfo">
-                    <h4>Supporting Information</h4>
-                    <p>Code: <a
-                        href="https://github.com/snap-stanford/saturn">https://github.com/snap-stanford/saturn</a>
-                    </p>
-                </div>
 
                 <Divider/>
 
