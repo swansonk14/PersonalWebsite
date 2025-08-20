@@ -101,7 +101,7 @@ class PublicationsPage extends Component {
                     James Zou, and Joseph C. Wu.
                 </p>
                 <p className="journalText"><span
-                    className="journalName">Annual Review of Pharmocology and Toxicology</span>, 2024.</p>
+                    className="journalName">Annual Review of Pharmacology and Toxicology</span>, 2024.</p>
 
                 <Divider/>
 

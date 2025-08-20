@@ -12,7 +12,7 @@ class ProjectPage extends Component {
         <br></br>
         <p className="projectText"> Tap is a modernization of Python's built-in <a href="https://docs.python.org/3/library/argparse.html">argparse</a> library for parsing command line arguments. By defining arguments in a typed Python class, Tap enables arguments with static type checking, code completion, and source code navigation. Tap can be installed with:</p>
         <pre>pip install typed-argument-parser</pre>
-        <p>The <a href="https://github.com/swansonk14/typed-argument-parser">code</a> is open-source and was developed by Jesse Michel and myself. As of February 2025, Tap has over <a href="https://pepy.tech/project/typed-argument-parser">6 million downloads</a>.</p>
+        <p>The <a href="https://github.com/swansonk14/typed-argument-parser">code</a> is open-source and was developed by Jesse Michel and myself. As of February 2025, Tap has over <a href="https://pepy.tech/project/typed-argument-parser">8 million downloads</a>.</p>
 
         <Divider />
 
