@@ -22,7 +22,8 @@ class PublicationsPage extends Component {
                     <p>Data & Models: <a
                         href="https://zenodo.org/records/15391268">https://zenodo.org/records/15391268</a>
                     </p>
-
+                    <h4>News</h4>
+                    <p><a href="https://www.sfchronicle.com/projects/2025/superbugs-antibiotic-resistance-ai/?utm_source=marketing&utm_medium=copy-url-link&utm_campaign=article-share&hash=aHR0cHM6Ly93d3cuc2ZjaHJvbmljbGUuY29tL3Byb2plY3RzLzIwMjUvc3VwZXJidWdzLWFudGliaW90aWMtcmVzaXN0YW5jZS1haS8=&time=MTc2NTUwMTU0NzA4MA==&rid=OTFjODc0YmEtMWRkOS00ZjUzLTljOWMtODIwMDUyY2M4ZmZj&sharecount=MQ==">Superbugs are getting deadlier — and no one is safe. Is this new science our best hope?</a>, SF Chronicle.</p>
                 </div>
 
                 <Divider/>
@@ -43,6 +44,7 @@ class PublicationsPage extends Component {
                         scientists' super-charges biomedical research</a>, Nature News.</p>
                     <p><a href="https://www.nature.com/articles/d41586-025-02028-5">AI 'scientists' joined these research teams: here's what happened</a>, Nature News.</p>
                     <p><a href="https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html">Researchers create 'virtual scientists' to solve complex biological problems</a>, Stanford Medicine News.</p>
+                    <p><a href="https://spectrum.ieee.org/ai-co-scientist">Google's AI Co-Scientist Scores Two Wins in Biology</a>, IEEE Spectrum.</p>
                     <p><a href="https://indiaai.gov.in/article/stanford-researchers-create-virtual-lab-with-ai-scientists-to-automate-scientific-discovery">Stanford Researchers Create Virtual Lab with AI Scientists to Automate Scientific Discovery</a>, IndiaAI.</p>
                     <p><a href="https://analyticsindiamag.com/ai-insights-analysis/ai-scientists-are-here">AI Scientists
                         Are Here</a>, Analytics India Magazine.</p>
