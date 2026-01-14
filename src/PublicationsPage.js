@@ -10,6 +10,23 @@ class PublicationsPage extends Component {
                 <h1>Publications</h1>
 
                 <h2 className="publicationTitle"><a
+                    href="https://arxiv.org/abs/2601.07145"> Generating readily synthesizable small molecule fluorophore scaffolds with reinforcement learning</a></h2>
+                <p className="authorsText">Ruhi Sayana<sup>*</sup>, Kate Callon<sup>*</sup>, Jennifer Xu<sup>*</sup>, Jonathan Deutsch, Steven Chu, James Zou, John Janetzko, Rabindra V. Shivnaraine, <span className="selfAuthor">Kyle Swanson</span>.</p>
+                <p className="journalText"><span className="journalName">The 2nd Workshop on Generative AI and Biology, ICML</span>, 2025.
+                </p>
+                <div className="suppInfo">
+                    <h4>Supporting Information</h4>
+                    <p>Code: <a
+                        href="https://github.com/swansonk14/SyntheMol">https://github.com/swansonk14/SyntheMol</a>
+                    </p>
+                    <p>Data & Models: <a
+                        href="https://zenodo.org/records/18203970">https://zenodo.org/records/18203970</a>
+                    </p>
+                </div>
+
+                <Divider/>
+
+                <h2 className="publicationTitle"><a
                     href="https://www.biorxiv.org/content/10.1101/2025.05.17.654017v1"> SyntheMol-RL: a flexible reinforcement learning framework for designing novel and synthesizable antibiotics</a></h2>
                 <p className="authorsText"><span className="selfAuthor">Kyle Swanson</span><sup>*</sup>, Gary Liu<sup>*</sup>, Denise Catacutan<sup>*</sup>, Stewart McLellan, Autumn Arnold, Megan M. Tu, Eric D. Brown, James Zou, and Jonathan M. Stokes.</p>
                 <p className="journalText"><span className="journalName">bioRxiv</span>, 2025.
@@ -43,6 +60,7 @@ class PublicationsPage extends Component {
                     <p><a href="https://www.nature.com/articles/d41586-024-01684-3">Virtual lab powered by 'AI
                         scientists' super-charges biomedical research</a>, Nature News.</p>
                     <p><a href="https://www.nature.com/articles/d41586-025-02028-5">AI 'scientists' joined these research teams: here's what happened</a>, Nature News.</p>
+                    <p><a href="https://www.nature.com/articles/s41592-025-02991-x">What nanobodies can do for you</a>, Nature Methods Technology Feature.</p>
                     <p><a href="https://med.stanford.edu/news/all-news/2025/07/virtual-scientist.html">Researchers create 'virtual scientists' to solve complex biological problems</a>, Stanford Medicine News.</p>
                     <p><a href="https://spectrum.ieee.org/ai-co-scientist">Google's AI Co-Scientist Scores Two Wins in Biology</a>, IEEE Spectrum.</p>
                     <p><a href="https://indiaai.gov.in/article/stanford-researchers-create-virtual-lab-with-ai-scientists-to-automate-scientific-discovery">Stanford Researchers Create Virtual Lab with AI Scientists to Automate Scientific Discovery</a>, IndiaAI.</p>
