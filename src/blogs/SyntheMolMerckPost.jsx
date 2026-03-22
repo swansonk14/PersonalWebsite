@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 
-class SynthemolMerckPost extends Component {
+class SyntheMolMerckPost extends Component {
 
   render() {
     return (
@@ -17,4 +17,4 @@ class SynthemolMerckPost extends Component {
   }
 }
 
-export default SynthemolMerckPost;
+export default SyntheMolMerckPost;
