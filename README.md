@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Kyle Swanson's personal website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo contains Kyle Swanson's personal website, which is live at https://swansonkyle.com/
+
+Thanks to Zack Holbrook and Jesse Michel for the initial template.
 
 ## Available Scripts
 
