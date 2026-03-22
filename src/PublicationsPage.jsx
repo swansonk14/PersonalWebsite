@@ -41,6 +41,8 @@ class PublicationsPage extends Component {
                     </p>
                     <h4>News</h4>
                     <p><a href="https://www.sfchronicle.com/projects/2025/superbugs-antibiotic-resistance-ai/?utm_source=marketing&utm_medium=copy-url-link&utm_campaign=article-share&hash=aHR0cHM6Ly93d3cuc2ZjaHJvbmljbGUuY29tL3Byb2plY3RzLzIwMjUvc3VwZXJidWdzLWFudGliaW90aWMtcmVzaXN0YW5jZS1haS8=&time=MTc2NTUwMTU0NzA4MA==&rid=OTFjODc0YmEtMWRkOS00ZjUzLTljOWMtODIwMDUyY2M4ZmZj&sharecount=MQ==">Superbugs are getting deadlier — and no one is safe. Is this new science our best hope?</a>, SF Chronicle.</p>
+                    <h4>Blog</h4>
+                    <p><a href="/blog/synthemol-merck">Generative AI to Design Small Molecule Therapeutics: Lessons from a Stanford/Merck collaboration</a></p>
                 </div>
 
                 <Divider/>
