@@ -141,3 +141,44 @@ footer span {
 p {
   color: #222;
 }
+
+.blog-list {
+  margin-top: 1em;
+}
+
+.blog-entry {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-entry:last-child {
+  border-bottom: none;
+}
+
+.blog-entry-title {
+  font-size: 24px;
+  margin-bottom: 0.2em;
+}
+
+.blog-date {
+  color: #888;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.blog-post figure {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-post figcaption {
+  margin-top: 0.5em;
+  font-size: 15px;
+  color: #666;
+}

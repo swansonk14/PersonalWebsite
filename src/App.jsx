@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import PublicationsPage from "./PublicationsPage";
 import NamePage from "./NamePage";
 import ProjectsPage from "./ProjectsPage";
+import BlogListPage from "./BlogListPage";
+import blogPosts from "./blogs/blogRegistry";
 
 const { Header, Content, Footer } = Layout;
 
@@ -36,6 +38,9 @@ class App extends Component {
               <Menu.Item key="projects">
                 <Link to="/projects">Projects</Link>
               </Menu.Item>
+              <Menu.Item key="blog">
+                <Link to="/blog">Blog</Link>
+              </Menu.Item>
             </Menu>
           </Header>
           <Content style={{minHeight: "calc(100vh - 110px)" }}>
@@ -43,6 +48,10 @@ class App extends Component {
               <Route exact path="/" element={<NamePage />} />
               <Route path="/publications" element={<PublicationsPage />} />
               <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/blog" element={<BlogListPage />} />
+              {blogPosts.map((post) => (
+                <Route key={post.slug} path={`/blog/${post.slug}`} element={<post.component />} />
+              ))}
             </Routes>
           </Content>
           <Footer style={{ textAlign: "center" }}>
