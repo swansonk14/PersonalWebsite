@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-import { FigureProvider, Figure, FigureRef } from "./FigureContext";
+import { FigureProvider, Figure, FigureRef, Table, TableRef } from "./FigureContext";
 
 function SyntheMolMerckPost() {
   return (
@@ -138,9 +138,31 @@ function SyntheMolMerckPost() {
 
         <h2>Optimizing many parameters simultaneously for an antibacterial program</h2>
 
-        <p>In parallel with our work on the first target, we tackled a second program at Merck, which introduced us to a new set of interesting, real-world drug discovery challenges, now in the context of antibiotic design. Unlike our academic antibiotic work, where we approach antibiotic development from a phenotypic angle and design molecules that inhibit bacterial growth without a specific protein target in mind, this Merck antibiotic pipeline was focused specifically on a bacterial enzyme present in multiple bacterial species. The goal of the program was to develop a single small molecule that can bind to the antibacterial target across several of the <a href="https://en.wikipedia.org/wiki/ESKAPE" target="_blank">ESKAPE</a>species, a set of bacterial species that are notoriously hard to treat, and deliver a broad-spectrum clinical agent.</p>
+        <p>In parallel with our work on the first target, we tackled a second program at Merck, which introduced us to a new set of interesting, real-world drug discovery challenges, now in the context of antibiotic design. Unlike our academic antibiotic work, where we approach antibiotic development from a phenotypic angle and design molecules that inhibit bacterial growth without a specific protein target in mind, this Merck antibiotic pipeline was focused specifically on a bacterial enzyme present in multiple bacterial species. The goal of the program was to develop a single small molecule that can bind to the antibacterial target across several of the <a href="https://en.wikipedia.org/wiki/ESKAPE" target="_blank">ESKAPE</a> species, a set of bacterial species that are notoriously hard to treat, and deliver a broad-spectrum clinical agent.</p>
 
-        
+        <p>As with the first program, the antibacterial program has experimentally determined potency data for several thousand small molecules. However, unlike the first program, which is a single target in a single species (human), this program involves different orthologs across different bacterial species, and a single molecule can have different potencies in each species due to both differences in the target structure and differences in bacterial cell permeability. Our experimental data reflects this variability as we have 2.4k molecules with potencies that vary across one or more of five bacterial species: <span style={{ fontStyle: "italic" }}>Acinetobacter baumannii</span>, <span style={{ fontStyle: "italic" }}>Escherichia coli</span>, <span style={{ fontStyle: "italic" }}>Klebsiella pneumoniae</span>, <span style={{ fontStyle: "italic" }}>Pseudomonas aeruginosa</span>, and <span style={{ fontStyle: "italic" }}>Staphylococcus aureus</span> (<TableRef label="antibiotic-data" /> and <FigureRef label="antibiotic-potency" />).</p>
+
+        <Table label="antibiotic-data" caption="Number of molecules with experimentally validated potency data for each bacterial species.">
+          <table className="blog-table">
+            <thead>
+              <tr>
+                <th>Bacterial species</th>
+                <th>Number of Molecules</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><span style={{ fontStyle: "italic" }}>Acinetobacter baumannii</span></td><td>1.0k</td></tr>
+              <tr><td><span style={{ fontStyle: "italic" }}>Escherichia coli</span></td><td>1.3k</td></tr>
+              <tr><td><span style={{ fontStyle: "italic" }}>Klebsiella pneumoniae</span></td><td>0.6k</td></tr>
+              <tr><td><span style={{ fontStyle: "italic" }}>Pseudomonas aeruginosa</span></td><td>0.9k</td></tr>
+              <tr><td><span style={{ fontStyle: "italic" }}>Staphylococcus aureus</span></td><td>1.0k</td></tr>
+            </tbody>
+          </table>
+        </Table>
+
+        <Figure label="antibiotic-potency" caption={<>The distribution of log-transformed experimental potency values of 2.4k molecules for the target of interest in each of five bacterial species. (diagonal) Histogram of the log potency values of molecules tested against a single species. (off-diagonal) Scatter plot showing the log potency values of molecules tested against both of each pair of species.</>}>
+          <img src="/images/blog/synthemol_merck/antibiotic-potency.svg" alt="The distribution of log-transformed experimental potency values of 2.4k molecules for the target of interest in each of five bacterial species." />
+        </Figure>
 
       </div>
     </FigureProvider>
