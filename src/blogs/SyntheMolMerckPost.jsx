@@ -164,6 +164,14 @@ function SyntheMolMerckPost() {
           <img src="/images/blog/synthemol_merck/antibiotic-potency.svg" alt="The distribution of log-transformed experimental potency values of 2.4k molecules for the target of interest in each of five bacterial species." />
         </Figure>
 
+        <p>As with the first program, Merck had already discovered numerous potent molecules targeting the desired protein, but the majority exhibit suboptimal ADMET properties. One of the key issues is that these molecules can potentially bind the human hERG channel, which may be a cardiovascular risk. Therefore, like the first program, we need to identify molecules with new chemical structures that retain potency while reducing the measured hERG binding. Despite the similarities, this target differs in two major ways.</p>
+
+        <p>First, extensive study of the target, both at Merck and in the broader community, has determined that small molecule binders typically take a specific structure with a linear scaffold of left-hand side (LHS), linker (LNK), and right-hand side (RHS) (illustrated in Figure 12). Therefore, unlike the other program, where we want to generate arbitrary novel scaffolds, for this target we want to stay close to this precedented pharmacophore. </p>
+
+        <Figure label="lhs-lnk-rhs" caption={<>The overall linear structure of most inhibitors, which take the form of left-hand side (LHS), linker (LNK), and right-hand side (RHS). Note that the example molecule shown is taken from a different publicly-known program and is not related to this target.</>}>
+          <img src="/images/blog/synthemol_merck/lhs-lnk-rhs.svg" alt="The overall linear structure of most inhibitors, which take the form of left-hand side (LHS), linker (LNK), and right-hand side (RHS)." />
+        </Figure>
+
       </div>
     </FigureProvider>
   );
