@@ -182,3 +182,7 @@ p {
   font-size: 15px;
   color: #666;
 }
+
+.figure-label {
+  font-weight: bold;
+}
