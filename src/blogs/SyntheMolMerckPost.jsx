@@ -58,6 +58,16 @@ function SyntheMolMerckPost() {
 
         <p>While this application of SyntheMol-RL was very promising, we were excited to see how SyntheMol-RL would translate to more complex drug discovery pipelines at Merck.</p>
 
+        <h2>Balancing experimental and computational potency data for a human therapeutics program</h2>
+
+        <p>The first small molecule therapeutic target was a human protein with enzymatic activity. Researchers at Merck have been working on the target for several years, so they have a wealth of data on the target, including about 8k small molecules with experimentally validated biochemical potency.</p>
+
+        {/* TODO: missing figures */}
+        <Figure label="human-potency" caption={<>Distribution of the biochemical potency of ~8k small molecules against the target. (left) The full distribution of potency values detected in the assay. (right) The distribution of potency values less than 200 nM, with three potency thresholds from strong (25 nM) to weak (100 nM).</>}>
+          <img src="/images/blog/synthemol_merck/human-potency-full.svg" alt="Full distribution of the biochemical potency of ~8k small molecules against the target." />
+          <img src="/images/blog/synthemol_merck/human-potency-200nM.svg" alt="Distribution of the biochemical potency of ~8k small molecules against the target less than 200 nM." />
+        </Figure>
+
       </div>
     </FigureProvider>
   );

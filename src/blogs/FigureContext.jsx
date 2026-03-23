@@ -23,13 +23,24 @@ export function FigureProvider({ children }) {
   );
 }
 
-export function Figure({ label, caption, children }) {
+export function Figure({ label, caption, cols, children }) {
   const { register } = useContext(FigureContext);
   const number = register(label);
 
+  const content = cols ? (
+    <div
+      className="figure-grid"
+      style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}
+    >
+      {children}
+    </div>
+  ) : (
+    children
+  );
+
   return (
     <figure id={`fig-${label}`}>
-      {children}
+      {content}
       <figcaption>
         <span className="figure-label">Figure {number}:</span> {caption}
       </figcaption>

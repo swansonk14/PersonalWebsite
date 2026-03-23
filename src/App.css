@@ -183,6 +183,16 @@ p {
   color: #666;
 }
 
+.figure-grid {
+  display: grid;
+  gap: 0.5em;
+}
+
+.figure-grid img {
+  width: 100%;
+  height: auto;
+}
+
 .figure-label {
   font-weight: bold;
 }
