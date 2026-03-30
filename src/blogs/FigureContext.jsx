@@ -35,7 +35,7 @@ export function FigureProvider({ children }) {
   );
 }
 
-export function Figure({ label, caption, cols, children }) {
+export function Figure({ label, caption, cols, maxWidth, children }) {
   const { register } = useContext(FigureContext);
   const number = register(label);
   const containerRef = useRef(null);
@@ -74,8 +74,10 @@ export function Figure({ label, caption, cols, children }) {
         </div>
       );
     }
-    return <div ref={containerRef}>{rows}</div>;
-  })() : children;
+    return <div ref={containerRef} style={maxWidth ? { maxWidth, margin: "0 auto" } : undefined}>{rows}</div>;
+  })() : (
+    maxWidth ? <div style={{ maxWidth, margin: "0 auto" }}>{children}</div> : children
+  );
 
   return (
     <figure id={`fig-${label}`}>
