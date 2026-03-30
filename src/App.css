@@ -167,6 +167,22 @@ p {
   margin-top: 0;
 }
 
+.blog-summary {
+  background-color: #f0f4f8;
+  border-left: 4px solid #3a7bd5;
+  padding: 1em 1.25em;
+  margin: 1.5em 0 2em;
+  border-radius: 0 6px 6px 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.blog-summary strong {
+  color: #3a7bd5;
+  margin-right: 0.3em;
+}
+
 .blog-post figure {
   margin: 2em 0;
   text-align: center;
@@ -183,13 +199,18 @@ p {
   color: #666;
 }
 
-.figure-grid {
-  display: grid;
+.figure-grid-row {
+  display: flex;
   gap: 0.5em;
 }
 
-.figure-grid img {
-  width: 100%;
+.figure-grid-row + .figure-grid-row {
+  margin-top: 0.5em;
+}
+
+.figure-grid-row img {
+  flex: 1 1 0%;
+  min-width: 0;
   height: auto;
 }
 

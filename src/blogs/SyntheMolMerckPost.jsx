@@ -20,6 +20,10 @@ function SyntheMolMerckPost() {
           <sup>3</sup>Discovery Chemistry, Merck &amp; Co., Inc., South San Francisco, CA, USA
         </p>
 
+        <div className="blog-summary">
+          <strong>Summary:</strong>Generative AI for drug discovery has been making headlines, but how well does it work in a real-world drug discovery program? Through a collaboration between Stanford and Merck, we put our generative AI model <a href="https://www.biorxiv.org/content/10.1101/2025.05.17.654017v1" target="_blank">SyntheMol-RL</a> to the test by applying it to two proprietary small molecule drug discovery programs at Merck&mdash;a human therapeutic target and a bacterial target. Here, we share what worked, what didn't, and challenges the field still needs to solve.
+        </div>
+
         <h2>Introduction</h2>
 
         <p>Generative AI has been a hot topic in drug discovery for years, and recently, it seems as if there's a new generative model almost every day, with recent examples including <a href="https://www.biorxiv.org/content/10.1101/2025.09.18.676967v2" target="_blank">RFdiffusion3</a> and <a href="https://boltz.bio/boltzgen" target="_blank">BoltzGen</a>. However, with every new paper, we ask the same question: do these major advances, which are legitimately groundbreaking and exciting from a technical perspective, translate to real-world improvements in drug discovery that ultimately benefit patients?</p>

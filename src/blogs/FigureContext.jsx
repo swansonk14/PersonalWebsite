@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useRef } from "react";
+import React, { createContext, useContext, useRef, useEffect } from "react";
 
 const FigureContext = createContext(null);
 
@@ -38,17 +38,44 @@ export function FigureProvider({ children }) {
 export function Figure({ label, caption, cols, children }) {
   const { register } = useContext(FigureContext);
   const number = register(label);
+  const containerRef = useRef(null);
 
-  const content = cols ? (
-    <div
-      className="figure-grid"
-      style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}
-    >
-      {children}
-    </div>
-  ) : (
-    children
-  );
+  useEffect(() => {
+    if (!cols || !containerRef.current) return;
+    const imgs = Array.from(containerRef.current.querySelectorAll("img"));
+
+    const equalize = () => {
+      imgs.forEach((img) => {
+        if (img.naturalWidth && img.naturalHeight) {
+          img.style.flex = `${img.naturalWidth / img.naturalHeight} 1 0%`;
+        }
+      });
+    };
+
+    let loaded = 0;
+    const onLoad = () => { if (++loaded >= imgs.length) equalize(); };
+
+    imgs.forEach((img) => {
+      if (img.complete && img.naturalWidth) loaded++;
+      else img.addEventListener("load", onLoad, { once: true });
+    });
+    if (loaded >= imgs.length) equalize();
+
+    return () => imgs.forEach((img) => img.removeEventListener("load", onLoad));
+  }, [cols, children]);
+
+  const content = cols ? (() => {
+    const childArray = React.Children.toArray(children);
+    const rows = [];
+    for (let i = 0; i < childArray.length; i += cols) {
+      rows.push(
+        <div key={i} className="figure-grid-row">
+          {childArray.slice(i, i + cols)}
+        </div>
+      );
+    }
+    return <div ref={containerRef}>{rows}</div>;
+  })() : children;
 
   return (
     <figure id={`fig-${label}`}>
